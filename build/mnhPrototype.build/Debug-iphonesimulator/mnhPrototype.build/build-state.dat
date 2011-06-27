@@ -1,0 +1,1894 @@
+TmnhPrototype
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/Info.plist mnhPrototype-Info.plist
+cCpResource bin/data/Default.png build/Debug-iphonesimulator/mnhPrototype.app/Default.png
+cCpResource bin/data/Icon.png build/Debug-iphonesimulator/mnhPrototype.app/Icon.png
+cCopyPlistFile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/mnhPrototype-Info.plist mnhPrototype-Info.plist
+cCpResource ../../../addons/ofxXmlSettings/install.xml build/Debug-iphonesimulator/mnhPrototype.app/install.xml
+cCpResource ../../../addons/ofxVtron/ofxFreeType2/README build/Debug-iphonesimulator/mnhPrototype.app/README
+cProcessPCH++ /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-fexpakhakttmfuheecymephbjnza/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvmgcc42
+cProcessPCH++ /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/testApp.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/testApp.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/main.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/main.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxFreeType2.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhSceneManager.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhSceneManager.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxml.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxml.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxmlerror.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxmlparser.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxXmlSettings.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/homeScene.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Views/homeScene.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhBaseScene.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhBaseScene.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxSceneManagerScene.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManagerScene.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhAssetManager.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhAssetManager.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhMenu.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhMenu.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/baseButton.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../../../../../../../../Users/steve/Desktop/Vargatron/C++/openFrameworks/Releases/CLEAN/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxBaseButton/baseButton.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxSceneManager2.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManager2.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cLd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/mnhPrototype normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004D5EBEC300000000001340C0
+t1298054851
+s1261760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c00000000448600480000000000000556
+t1149632584
+s1366
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D54CF5D0000000000205F50
+t1297403741
+s2121552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004D54CECB000000000023EB70
+t1297403595
+s2354032
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004D54DEBC00000000000778F0
+t1297407676
+s489712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004D54DEB600000000000001D0
+t1297407670
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000004D5C9AE3000000000006A720
+t1297914595
+s436000
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004486036800000000000003A8
+t1149633384
+s936
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004D54D0CD0000000000019010
+t1297404109
+s102416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004D5C9BDB00000000000002FE
+t1297914843
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004D54CFAF0000000000025740
+t1297403823
+s153408
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004D54D24F000000000000094F
+t1297404495
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004D54D24F0000000000000A61
+t1297404495
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004D54D24F0000000000009369
+t1297404495
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004D54D24F0000000000003C4A
+t1297404495
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004D54D28100000000000191D0
+t1297404545
+s102864
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D2DD00000000000000C4
+t1297404637
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D4200000000000162C50
+t1297404960
+s1453136
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
+c000000004485F81C000000000000062F
+t1149630492
+s1583
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/TargetConditionals.h
+c000000004D4F7A2B00000000000031E9
+t1297054251
+s12777
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/assert.h
+c000000004D4F6E990000000000000F6E
+t1297051289
+s3950
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/ctype.h
+c000000004D4F6E9A0000000000002C18
+t1297051290
+s11288
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/dirent.h
+c000000004D4F6E9A0000000000001707
+t1297051290
+s5895
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/errno.h
+c000000004D4F6E9900000000000003EB
+t1297051289
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/fcntl.h
+c000000004D4F6E9900000000000003EA
+t1297051289
+s1002
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/getopt.h
+c000000004D4F6E990000000000000CBC
+t1297051289
+s3260
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/inttypes.h
+c000000004D4F6E990000000000002674
+t1297051289
+s9844
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/pthread.h
+c000000004D4F6E9A0000000000003BF6
+t1297051290
+s15350
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/setjmp.h
+c000000004D4F6E990000000000000438
+t1297051289
+s1080
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdio.h
+c000000004D4F6E9A0000000000004763
+t1297051290
+s18275
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9A00000000000030A7
+t1297051290
+s12455
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/string.h
+c000000004D4F6E9A0000000000001A3A
+t1297051290
+s6714
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/_types.h
+c000000004D54D0EC0000000000001845
+t1297404140
+s6213
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/ioctl.h
+c000000004D54D0E9000000000000116C
+t1297404137
+s4460
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/select.h
+c000000004D54D0EB00000000000016A2
+t1297404139
+s5794
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/sysctl.h
+c000000004D54D0EB0000000000007D09
+t1297404139
+s32009
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/termios.h
+c000000004D4F6E9900000000000004D4
+t1297051289
+s1236
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/unistd.h
+c000000004D4F6E9A0000000000006662
+t1297051290
+s26210
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/wchar.h
+c000000004D4F6E9A0000000000002A2B
+t1297051290
+s10795
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/libiconv.2.dylib
+c000000004AD4F6DB00000000000049DC
+t1255470811
+s18908
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004D55C8260000000000003197
+t1297467430
+s12695
+i<machine/ansi.h>
+i<sys/_types.h>
+
+N/Users/steve/Desktop/Vargatron/C++/openFrameworks/Releases/CLEAN/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxBaseButton/baseButton.h
+c000000004E0001240000000000000648
+t1308623140
+s1608
+i"ofMain.h"
+i"ofxFreeType2.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxAccelerometer/src/ofxAccelerometer.h
+c000000004CE4041C00000000000018EE
+t1290011676
+s6382
+i"ofTypes.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxMultitouch/src/ofxMultiTouch.h
+c000000004DE7B0900000000000000B9D
+t1307029648
+s2973
+i"ofMain.h"
+i"ofxMultiTouchListener.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxMultitouch/src/ofxMultiTouchListener.h
+c000000004CE4041C0000000000000BC9
+t1290011676
+s3017
+i"ofEvents.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.h
+c000000004D709DDC0000000000000B67
+t1299226076
+s2919
+i"ofMain.h"
+i<ft2build.h>
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxSceneManager/src/ofxSceneManager.h
+c000000004E03B56800000000000002B1
+t1308865896
+s689
+i"ofMain.h"
+i"ofxSceneManagerScene.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxSceneManager/src/ofxSceneManager2.h
+c000000004E03B4D20000000000000264
+t1308865746
+s612
+i"ofMain.h"
+i"ofxSceneManagerScene.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxSceneManager/src/ofxSceneManagerScene.h
+c000000004E03B5A1000000000000032E
+t1308865953
+s814
+i"ofMain.h"
+i"ofxSceneManager.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxXmlSettings/libs/tinyxml.h
+c000000004CE4041E000000000000FD05
+t1290011678
+s64773
+i<ctype.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+i<string>
+i<iostream>
+i<sstream>
+i"tinystr.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxXmlSettings/src/ofxXmlSettings.h
+c000000004CE4041E0000000000001B46
+t1290011678
+s6982
+i"ofMain.h"
+i<string.h>
+i"tinyxml.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/ofxiPhone.h
+c000000004CE4041E000000000000085A
+t1290011678
+s2138
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ofxAccelerometer.h"
+i"ofxiPhoneAlerts.h"
+i"ofxMultiTouch.h"
+i"ofxiPhoneApp.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/ofxiPhoneExtras.h
+c000000004CE4041E00000000000021C9
+t1290011678
+s8649
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofAppiPhoneWindow.h"
+i"ofxiPhoneAppDelegate.h"
+i"EAGLView.h"
+i"ofxiPhoneKeyboard.h"
+i"ofxiPhoneCoreLocation.h"
+i"ofxiPhoneImagePicker.h"
+i"ofxiPhoneMapKit.h"
+i<sys/sysctl.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/src/EAGLView.h
+c000000004CE4041E000000000000094E
+t1290011678
+s2382
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"ESRenderer.h"
+i"ofxiPhone.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/src/ESRenderer.h
+c000000004CE4041E000000000000018E
+t1290011678
+s398
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/src/ofAppiPhoneWindow.h
+c000000004CE4041E0000000000000CD5
+t1290011678
+s3285
+i"ofAppBaseWindow.h"
+i"glu.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneAlerts.h
+c000000004CE4041E0000000000000E48
+t1290011678
+s3656
+i"ofxiPhoneAlertsListener.h"
+i<list>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneAlertsListener.h
+c000000004CE4041E0000000000000862
+t1290011678
+s2146
+i"ofMain.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneApp.h
+c000000004CE4041E000000000000046B
+t1290011678
+s1131
+i"ofMain.h"
+i"ofEvents.h"
+i"ofxiPhoneAlerts.h"
+i"ofxMultiTouch.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneAppDelegate.h
+c000000004CE4041E000000000000095F
+t1290011678
+s2399
+i<UIKit/UIKit.h>
+i"EAGLView.h"
+i"ofAppiPhoneWindow.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneCoreLocation.h
+c000000004CE4041E00000000000008A6
+t1290011678
+s2214
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"ofMain.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneImagePicker.h
+c000000004D242D7B0000000000000C51
+t1294216571
+s3153
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i"ofMain.h"
+i<iostream>
+i<Availability.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneKeyboard.h
+c000000004CE4041E00000000000006A5
+t1290011678
+s1701
+i<UIKit/UIKit.h>
+i"ofMain.h"
+i"ofxiPhoneExtras.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneMapKit.h
+c000000004CE4041E000000000000162C
+t1290011678
+s5676
+i<Availability.h>
+i"ofMain.h"
+i<MapKit/MapKit.h>
+i"ofxiPhoneMapKitListener.h"
+i<list>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/addons/ofxiPhone/src/ofxiPhoneMapKitListener.h
+c000000004CE4041E0000000000000881
+t1290011678
+s2177
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../../../../../../../../Users/steve/Desktop/Vargatron/C++/openFrameworks/Releases/CLEAN/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxBaseButton/baseButton.cpp
+c000000004E00013A000000000000149E
+t1308623162
+s5278
+i"baseButton.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/README
+c000000004D6DADF00000000000000119
+t1299033584
+s281
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp
+c000000004DDF4B1C00000000000076AC
+t1306479388
+s30380
+i"ofxFreeType2.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.h
+c000000004D709DDC0000000000000B67
+t1299226076
+s2919
+i"ofMain.h"
+i<ft2build.h>
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManager2.cpp
+c000000004E03B4BD0000000000000493
+t1308865725
+s1171
+i"ofxSceneManager2.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManager2.h
+c000000004E03B4D20000000000000264
+t1308865746
+s612
+i"ofMain.h"
+i"ofxSceneManagerScene.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManagerScene.cpp
+c000000004E03B5FA0000000000000126
+t1308866042
+s294
+i"ofxSceneManagerScene.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/install.xml
+c000000004CE4041E0000000000000479
+t1290011678
+s1145
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxml.cpp
+c000000004CE4041E0000000000009064
+t1290011678
+s36964
+i<ctype.h>
+i<sstream>
+i<iostream>
+i"tinyxml.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxml.h
+c000000004CE4041E000000000000FD05
+t1290011678
+s64773
+i<ctype.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+i<string>
+i<iostream>
+i<sstream>
+i"tinystr.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp
+c000000004CE4041E0000000000000712
+t1290011678
+s1810
+i"tinyxml.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp
+c000000004CE4041E0000000000009B7B
+t1290011678
+s39803
+i<ctype.h>
+i<stddef.h>
+i"tinyxml.h"
+i<windows.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp
+c000000004CE4041E0000000000004D2C
+t1290011678
+s19756
+i"ofxXmlSettings.h"
+i<vector>
+i<string>
+i<iostream>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.h
+c000000004CE4041E0000000000001B46
+t1290011678
+s6982
+i"ofMain.h"
+i<string.h>
+i"tinyxml.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/FreeImage/include/FreeImage.h
+c000000004CE40420000000000000CC1B
+t1290011680
+s52251
+i<wchar.h>
+i<inttypes.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/FreeImage/lib/iphone/freeimage-iphone.a
+c000000004CE40420000000000118DE10
+t1290011680
+s18406928
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/FreeImage/lib/osx/freeimage.a
+c000000004CE404200000000000AA64B0
+t1290011680
+s11166896
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/freetype/include/ft2build.h
+c000000004CE404200000000000000F32
+t1290011680
+s3890
+i<freetype/config/ftheader.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/freetype/lib/iphone/freetype-iphone.a
+c000000004DD8854900000000003FB358
+t1306035529
+s4174680
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/freetype/lib/osx/freetype.a
+c000000004CE4042000000000004D82C8
+t1290011680
+s5079752
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/glu/include_iphone/glu.h
+c000000004CE404200000000000001F99
+t1290011680
+s8089
+i<OpenGLES/ES1/gl.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/glu/lib/iphone/glu-iphone.a
+c000000004CE40420000000000004DA38
+t1290011680
+s318008
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/glu/lib/iphone/glu.a
+c000000004CE40420000000000002C690
+t1290011680
+s181904
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/CppUnit.a
+c000000004CE40422000000000002CAB0
+t1290011682
+s182960
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoFoundation.a
+c000000004CE40422000000000048B660
+t1290011682
+s4765280
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoNet.a
+c000000004CE4042200000000002CA010
+t1290011682
+s2924560
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoUtil.a
+c000000004CE4042200000000000DF440
+t1290011682
+s914496
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoXML.a
+c000000004CE40422000000000019C8D0
+t1290011682
+s1689808
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/osx/CppUnit.a
+c000000004DE7B0C4000000000003ABB0
+t1307029700
+s240560
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/osx/PocoFoundation.a
+c000000004CE4042200000000005A62E8
+t1290011682
+s5923560
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/osx/PocoNet.a
+c000000004CE404220000000000378278
+t1290011682
+s3637880
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/osx/PocoUtil.a
+c000000004DE7B0C400000000000FFB80
+t1307029700
+s1047424
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/osx/PocoXML.a
+c000000004CE404220000000000239BC0
+t1290011682
+s2333632
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/bin/data/Default.png
+c000000004DF11ACA00000000000031FB
+t1307646666
+s12795
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/bin/data/Icon.png
+c000000004DF11AA20000000000000ABE
+t1307646626
+s2750
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app
+t1308865845
+s264
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app.dSYM
+t2
+s0
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/Default.png
+t1308865845
+s12795
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/Icon.png
+t1308865845
+s2750
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/Info.plist
+t1308865844
+s858
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/PkgInfo
+t1308865845
+s8
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/README
+t1308865845
+s281
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/install.xml
+t1308865845
+s1145
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/mnhPrototype
+t2
+s0
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/mnhPrototype-Info.plist
+t1308865845
+s722
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/baseButton.o
+t1308866016
+s74468
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/homeScene.o
+t1308865974
+s116708
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/main.o
+t1308865971
+s135560
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhAssetManager.o
+t1308865910
+s100244
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhBaseScene.o
+t1308865974
+s107676
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhMenu.o
+t1308866003
+s116076
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhPrototype.LinkFileList
+c000000004E03B5340000000000000C47
+t1308865844
+s3143
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhSceneManager.o
+t1308866016
+s26272
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxFreeType2.o
+t2
+s0
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxSceneManager2.o
+t1308866019
+s26684
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxSceneManagerScene.o
+t2
+s0
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxXmlSettings.o
+t1308865905
+s229976
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/testApp.o
+t1308865971
+s281420
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxml.o
+t1308865847
+s229312
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxmlerror.o
+t1308865848
+s47704
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxmlparser.o
+t1308865849
+s145872
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Script-9255DD331112741900D6945E.sh
+c000000004E03B5340000000000000042
+t1308865844
+s66
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/iPhone_Prefix.pch
+c000000004CE4042000000000000000B5
+t1290011680
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/mnhPrototype-Info.plist
+c000000004DE7E06600000000000004D1
+t1307041894
+s1233
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/baseButton.h
+c000000004DF0DD730000000000000475
+t1307630963
+s1141
+i"ofMain.h"
+i"baseButton.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhAssetManager.cpp
+c000000004DF133D600000000000003D9
+t1307653078
+s985
+i"mnhAssetManager.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhAssetManager.h
+c000000004E03B4020000000000000289
+t1308865538
+s649
+i"ofMain.h"
+i"ofxXmlSettings.h"
+i"ofxFreeType2.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhBaseScene.cpp
+c000000004E03B2B400000000000002EF
+t1308865204
+s751
+i"mnhBaseScene.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhBaseScene.h
+c000000004E03B5AD0000000000000258
+t1308865965
+s600
+i"mnhSceneManager.h"
+i"mnhAssetManager.h"
+i"ofxSceneManagerScene.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhMenu.cpp
+c000000004E03B5CD000000000000067D
+t1308865997
+s1661
+i"mnhMenu.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhMenu.h
+c000000004DF1386300000000000001FF
+t1307654243
+s511
+i"mnhMenu.h"
+i"mnhBaseScene.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhSceneManager.cpp
+c000000004E03B294000000000000036B
+t1308865172
+s875
+i"mnhSceneManager.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhSceneManager.h
+c000000004E03B47D000000000000025E
+t1308865661
+s606
+i"ofxSceneManager2.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Views/homeScene.cpp
+c000000004E03B44F0000000000000821
+t1308865615
+s2081
+i"homeScene.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Views/homeScene.h
+c000000004E03B48D0000000000000285
+t1308865677
+s645
+i"mnhBaseScene.h"
+i"baseButton.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/main.mm
+c000000004CE40420000000000000009E
+t1290011680
+s158
+i"ofMain.h"
+i"testApp.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/testApp.h
+c000000004E03B334000000000000031D
+t1308865332
+s797
+i"ofMain.h"
+i"ofxiPhone.h"
+i"ofxiPhoneExtras.h"
+i"ofxXmlSettings.h"
+i"mnhSceneManager.h"
+i"homeScene.h"
+i"mnhMenu.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/testApp.mm
+c000000004E03B33E0000000000000D8E
+t1308865342
+s3470
+i"testApp.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/freetype/include/freetype2/freetype/config/ftheader.h
+c000000004CE404200000000000005B39
+t1290011680
+s23353
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/app/ofAppBaseWindow.h
+c000000004CE404200000000000000446
+t1290011680
+s1094
+i"ofTypes.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004CE40420000000000000066B
+t1290011680
+s1643
+i"ofConstants.h"
+i"ofAppBaseWindow.h"
+i"glut.h"
+i<GLUT/glut.h>
+i<GL/glut.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/app/ofAppRunner.h
+c000000004CE40420000000000000050D
+t1290011680
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/app/ofBaseApp.h
+c000000004CE404200000000000000376
+t1290011680
+s886
+i"ofTypes.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/communication/ofArduino.h
+c000000004CE404200000000000003D3C
+t1290011680
+s15676
+i<list>
+i<vector>
+i<string>
+i<iostream>
+i"ofEvents.h"
+i"ofSerial.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/communication/ofSerial.h
+c000000004CE404200000000000000D2E
+t1290011680
+s3374
+i"ofConstants.h"
+i<termios.h>
+i<sys/ioctl.h>
+i<getopt.h>
+i<dirent.h>
+i<winbase.h>
+i<tchar.h>
+i<iostream>
+i<string.h>
+i<setupapi.h>
+i<regstr.h>
+i<winioctl.h>
+i<initguid.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<fcntl.h>
+i<errno.h>
+i<ctype.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/events/ofEventUtils.h
+c000000004CE404200000000000000AFA
+t1290011680
+s2810
+i"ofConstants.h"
+i"Poco/FIFOEvent.h"
+i"Poco/Delegate.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/events/ofEvents.h
+c000000004CE40420000000000000126C
+t1290011680
+s4716
+i"ofConstants.h"
+i"ofUtils.h"
+i"ofEventUtils.h"
+i"ofxEventUtils.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/graphics/ofGraphics.h
+c000000004CE404200000000000000D63
+t1290011680
+s3427
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/graphics/ofImage.h
+c000000004CE404200000000000000D09
+t1290011680
+s3337
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/graphics/ofTexture.h
+c000000004CE404200000000000000C4B
+t1290011680
+s3147
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004CE40420000000000000087A
+t1290011680
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/ofMain.h
+c000000004CE404200000000000000347
+t1290011680
+s839
+i"ofConstants.h"
+i"ofMath.h"
+i"ofUtils.h"
+i"ofTypes.h"
+i"ofSerial.h"
+i"ofArduino.h"
+i"ofTexture.h"
+i"ofTrueTypeFont.h"
+i"ofGraphics.h"
+i"ofImage.h"
+i"ofBaseApp.h"
+i"ofAppRunner.h"
+i"ofSoundStream.h"
+i"ofSoundPlayer.h"
+i"ofVideoGrabber.h"
+i"ofVideoPlayer.h"
+i"ofEvents.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/sound/ofSoundPlayer.h
+c000000004CE4042000000000000006C3
+t1290011680
+s1731
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/sound/ofSoundStream.h
+c000000004CE404200000000000000254
+t1290011680
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/utils/ofConstants.h
+c000000004CE404200000000000002ACC
+t1290011680
+s10956
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<cstdlib>
+i<cstdio>
+i<cstdarg>
+i<cmath>
+i<ctime>
+i<cstdlib>
+i<string>
+i<iostream>
+i<vector>
+i<cstring>
+i<sstream>
+i<iomanip>
+i<fstream>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/utils/ofMath.h
+c000000004CE404200000000000000A66
+t1290011680
+s2662
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/utils/ofTypes.h
+c000000004CE404200000000000001D5F
+t1290011680
+s7519
+i"ofConstants.h"
+i"ofUtils.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/utils/ofUtils.h
+c000000004CE4042000000000000005A4
+t1290011680
+s1444
+i"ofConstants.h"
+i<shellapi.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/video/ofGstUtils.h
+c000000004CE404200000000000000B55
+t1290011680
+s2901
+i<gst/gst.h>
+i<pthread.h>
+i"ofConstants.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/video/ofQtUtils.h
+c000000004CE4042000000000000006CF
+t1290011680
+s1743
+i"ofConstants.h"
+i"ofGraphics.h"
+i<QuickTime/QuickTime.h>
+i<CoreServices/CoreServices.h>
+i<ApplicationServices/ApplicationServices.h>
+i<QTML.h>
+i<FixMath.h>
+i<QuickTimeComponents.h>
+i<TextUtils.h>
+i<MediaHandlers.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/video/ofVideoGrabber.h
+c000000004CE404200000000000000C9C
+t1290011680
+s3228
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofTypes.h"
+i"ofQtUtils.h"
+i"videoInput.h"
+i"ofUCUtils.h"
+i"ofGstUtils.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworks/video/ofVideoPlayer.h
+c000000004CE404200000000000000C33
+t1290011680
+s3123
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGstUtils.h"
+i"ofQtUtils.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworksCompiled/lib/iphone/libofxiPhone_iphonesimulator_Debug.a
+c000000004E03B5340000000000AFC288
+t1308865844
+s11518600
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/AbstractDelegate.h
+c000000004CE404200000000000000B2E
+t1290011680
+s2862
+i"Poco/Foundation.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/AbstractEvent.h
+c000000004CE404200000000000002C6A
+t1290011680
+s11370
+i"Poco/Foundation.h"
+i"Poco/SingletonHolder.h"
+i"Poco/SharedPtr.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveMethod.h"
+i"Poco/Mutex.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/ActiveMethod.h
+c000000004CE404200000000000001C64
+t1290011680
+s7268
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveRunnable.h"
+i"Poco/ActiveStarter.h"
+i"Poco/AutoPtr.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/ActiveResult.h
+c000000004CE404200000000000002E66
+t1290011680
+s11878
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/ActiveRunnable.h
+c000000004CE404200000000000001785
+t1290011680
+s6021
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/Runnable.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i"Poco/Exception.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/ActiveStarter.h
+c000000004CE404200000000000000927
+t1290011680
+s2343
+i"Poco/Foundation.h"
+i"Poco/ThreadPool.h"
+i"Poco/ActiveRunnable.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/AutoPtr.h
+c000000004CE404200000000000001E0C
+t1290011680
+s7692
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Bugcheck.h
+c000000004CE4042000000000000012FE
+t1290011680
+s4862
+i"Poco/Foundation.h"
+i<string>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/CompareFunctions.h
+c000000004CE4042000000000000007EC
+t1290011680
+s2028
+i"Poco/Foundation.h"
+i<functional>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Config.h
+c000000004CE4042000000000000008B5
+t1290011680
+s2229
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Delegate.h
+c000000004CE404200000000000001802
+t1290011680
+s6146
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/FunctionDelegate.h"
+i"Poco/Expire.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Event.h
+c000000004CE404200000000000000E21
+t1290011680
+s3617
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Event_WIN32.h"
+i"Poco/Event_POSIX.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Event_POSIX.h
+c000000004CE404200000000000000A91
+t1290011680
+s2705
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Event_WIN32.h
+c000000004CE404200000000000000947
+t1290011680
+s2375
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Exception.h
+c000000004CE4042000000000000026AC
+t1290011680
+s9900
+i"Poco/Foundation.h"
+i<stdexcept>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Expire.h
+c000000004CE404200000000000000CF1
+t1290011680
+s3313
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/Timestamp.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/FIFOEvent.h
+c000000004CE404200000000000000AD4
+t1290011680
+s2772
+i"Poco/AbstractEvent.h"
+i"Poco/FIFOStrategy.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/CompareFunctions.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/FIFOStrategy.h
+c000000004CE4042000000000000010F3
+t1290011680
+s4339
+i"Poco/NotificationStrategy.h"
+i<map>
+i<list>
+i<memory>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Foundation.h
+c000000004CE404200000000000001023
+t1290011680
+s4131
+i"Poco/Config.h"
+i"Poco/Platform.h"
+i"Poco/Platform_WIN32.h"
+i"Poco/Platform_VMS.h"
+i"Poco/Platform_POSIX.h"
+i"Poco/Bugcheck.h"
+i"Poco/Types.h"
+i<string>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/FunctionDelegate.h
+c000000004CE4042000000000000013CA
+t1290011680
+s5066
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Mutex.h
+c000000004CE404220000000000001A61
+t1290011682
+s6753
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/ScopedLock.h"
+i"Poco/Mutex_WIN32.h"
+i"Poco/Mutex_POSIX.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Mutex_POSIX.h
+c000000004CE404220000000000000AC3
+t1290011682
+s2755
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Mutex_WIN32.h
+c000000004CE404220000000000000A07
+t1290011682
+s2567
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/NotificationStrategy.h
+c000000004CE404220000000000000A37
+t1290011682
+s2615
+i"Poco/Foundation.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Platform.h
+c000000004CE404220000000000001A3A
+t1290011682
+s6714
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Platform_POSIX.h
+c000000004CE404220000000000000843
+t1290011682
+s2115
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Platform_VMS.h
+c000000004CE404220000000000000BAA
+t1290011682
+s2986
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Platform_WIN32.h
+c000000004CE404220000000000000D4D
+t1290011682
+s3405
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/RefCountedObject.h
+c000000004CE404220000000000000B10
+t1290011682
+s2832
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Runnable.h
+c000000004CE404220000000000000861
+t1290011682
+s2145
+i"Poco/Foundation.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/ScopedLock.h
+c000000004CE4042200000000000008EB
+t1290011682
+s2283
+i"Poco/Foundation.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/SharedPtr.h
+c000000004CE4042200000000000021DE
+t1290011682
+s8670
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Mutex.h"
+i<algorithm>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/SignalHandler.h
+c000000004CE4042200000000000011EB
+t1290011682
+s4587
+i"Poco/Foundation.h"
+i<vector>
+i<setjmp.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/SingletonHolder.h
+c000000004CE404220000000000000A64
+t1290011682
+s2660
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Thread.h
+c000000004CE404220000000000001C3A
+t1290011682
+s7226
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Thread_WIN32.h"
+i"Poco/Thread_POSIX.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/ThreadPool.h
+c000000004CE404220000000000001849
+t1290011682
+s6217
+i"Poco/Foundation.h"
+i"Poco/Thread.h"
+i"Poco/Mutex.h"
+i<vector>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Thread_POSIX.h
+c000000004CE4042200000000000012A8
+t1290011682
+s4776
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/SignalHandler.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i<pthread.h>
+i<sys/select.h>
+i<errno.h>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Thread_WIN32.h
+c000000004CE40422000000000000106C
+t1290011682
+s4204
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Timestamp.h
+c000000004CE4042200000000000019A7
+t1290011682
+s6567
+i"Poco/Foundation.h"
+i<ctime>
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/Types.h
+c000000004CE404220000000000001910
+t1290011682
+s6416
+i"Poco/Foundation.h"
+
+N/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/poco/include/Poco/UnWindows.h
+c000000004CE404220000000000000FD1
+t1290011682
+s4049
+i<windows.h>
+
+N/var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch.gch
+t1308865845
+s1663344
+
+N/var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-fexpakhakttmfuheecymephbjnza/iPhone_Prefix.pch.gch
+t1308865848
+s13360432
+
+NmnhPrototype-Info.plist
+c000000004DE7E06600000000000004D1
+t1307041894
+s1233
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../../../../../../../../Users/steve/Desktop/Vargatron/C++/openFrameworks/Releases/CLEAN/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxBaseButton/baseButton.cpp
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManager2.cpp
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManagerScene.cpp
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxml.cpp
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhAssetManager.cpp
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhBaseScene.cpp
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhMenu.cpp
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhSceneManager.cpp
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Views/homeScene.cpp
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/main.mm
+r0
+
+CBuild AST from /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/testApp.mm
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0ce71e83edb3b341^5dc44783edb3b341^-119"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'mnhPrototype-Info.plist'.1(21%IDEActivityLogMessage2@112"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'mnhPrototype-Info.plist'.-330558851#18446744073709551615#0#-1#-----0#1#0#--18"Check dependencies
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/baseButton.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../../../../../../../../Users/steve/Desktop/Vargatron/C++/openFrameworks/Releases/CLEAN/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxBaseButton/baseButton.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s330558812.755338
+e330558816.500549
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/baseButton.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../../../../../../../../Users/steve/Desktop/Vargatron/C++/openFrameworks/Releases/CLEAN/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxBaseButton/baseButton.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection286"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../../../../../../../../Users/steve/Desktop/Vargatron/C++/openFrameworks/Releases/CLEAN/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxBaseButton/baseButton.cppda8ec15cedb3b341^81248060edb3b341^---0#0#0#-19%DVTDocumentLocation2@294"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../../../../../../../../Users/steve/Desktop/Vargatron/C++/openFrameworks/Releases/CLEAN/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxBaseButton/baseButton.cpp0000000000000000^4690"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/baseButton.o ../../../../../../../../../../Users/steve/Desktop/Vargatron/C++/openFrameworks/Releases/CLEAN/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxBaseButton/baseButton.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../../../../../../../../Users/steve/Desktop/Vargatron/C++/openFrameworks/Releases/CLEAN/of_preRelease_v0062_iphone_FAT/addons/ofxVtron/ofxBaseButton/baseButton.cpp -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/baseButton.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/homeScene.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Views/homeScene.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s330558771.506864
+e330558774.941376
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/homeScene.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Views/homeScene.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Views/homeScene.cppe2e58133edb3b341^bdfef036edb3b341^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Views/homeScene.cpp0000000000000000^4396"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/homeScene.o src/Views/homeScene.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Views/homeScene.cpp -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/homeScene.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/main.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/main.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s330558766.712707
+e330558771.505502
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/main.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/main.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/main.mmb39ab62eedb3b341^9f718133edb3b341^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/main.mm0000000000000000^4440"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/main.o src/main.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-fexpakhakttmfuheecymephbjnza/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/main.mm -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/main.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhAssetManager.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhAssetManager.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s330558708.237108
+e330558710.884479
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhAssetManager.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhAssetManager.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhAssetManager.cppb9e03cf4ecb3b341^226ee2f6ecb3b341^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhAssetManager.cpp0000000000000000^4422"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhAssetManager.o src/Shared/mnhAssetManager.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhAssetManager.cpp -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhAssetManager.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhBaseScene.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhBaseScene.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s330558771.692423
+e330558774.920245
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhBaseScene.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhBaseScene.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhBaseScene.cppc66cb133edb3b341^6398eb36edb3b341^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhBaseScene.cpp0000000000000000^4410"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhBaseScene.o src/Shared/mnhBaseScene.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhBaseScene.cpp -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhBaseScene.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhMenu.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhMenu.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s330558798.811890
+e330558803.707067
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhMenu.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhMenu.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhMenu.cpp82fdcf4eedb3b341^1d04b553edb3b341^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhMenu.cpp0000000000000000^4390"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhMenu.o src/Shared/mnhMenu.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhMenu.cpp -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhMenu.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhSceneManager.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhSceneManager.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s330558812.756422
+e330558816.116404
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhSceneManager.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhSceneManager.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhSceneManager.cpp41d8c15cedb3b341^3dd51d60edb3b341^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhSceneManager.cpp0000000000000000^4422"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhSceneManager.o src/Shared/mnhSceneManager.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/Shared/mnhSceneManager.cpp -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhSceneManager.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxFreeType2.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s330558851.423256
+e330558855.120064
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxFreeType2.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+o/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp: In member function 'void ofxFreeType2::drawString(std::string, int, int)':
+o/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp:691: warning: unused variable 'index'
+o/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp: In member function 'std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > ofxFreeType2::getTextAreaLines(std::string, int)':
+o/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp:872: warning: unused variable 'bNewLine'
+o/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp: In member function 'void ofxFreeType2::drawStringAsShapes(std::string, float, float)':
+o/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp:965: warning: unused variable 'index'
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection175"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp34836c83edb3b341^cbbb1e87edb3b341^-1535"/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp: In member function 'void ofxFreeType2::drawString(std::string, int, int)':/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp:691: warning: unused variable 'index'/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp: In member function 'std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > ofxFreeType2::getTextAreaLines(std::string, int)':/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp:872: warning: unused variable 'bNewLine'/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp: In member function 'void ofxFreeType2::drawStringAsShapes(std::string, float, float)':/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp:965: warning: unused variable 'index'3(21%IDEActivityLogMessage2@23"Unused variable 'index'-330558854#244#206#-1#-23%DVTTextDocumentLocation3@183"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp0000000000000000^690#18446744073709551615#690#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@26"Unused variable 'bNewLine'-330558854#864#209#-1#-3@183"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp0000000000000000^871#18446744073709551615#871#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@23"Unused variable 'index'-330558854#1329#206#-1#-3@183"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp0000000000000000^964#18446744073709551615#964#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--0#0#0#-19%DVTDocumentLocation4@183"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp0000000000000000^4472"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxFreeType2.o ../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/src/ofxFreeType2.cpp -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxFreeType2.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxSceneManager2.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManager2.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s330558816.501274
+e330558819.879177
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxSceneManager2.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManager2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection182"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManager2.cppe6798060edb3b341^cb2de563edb3b341^---0#0#0#-19%DVTDocumentLocation2@190"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManager2.cpp0000000000000000^4494"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxSceneManager2.o ../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManager2.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManager2.cpp -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxSceneManager2.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxSceneManagerScene.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManagerScene.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s330558851.427733
+e330558854.353213
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxSceneManagerScene.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManagerScene.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection186"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManagerScene.cppe4a36d83edb3b341^836b5a86edb3b341^---0#0#0#-19%DVTDocumentLocation2@194"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManagerScene.cpp0000000000000000^4510"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxSceneManagerScene.o ../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManagerScene.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxSceneManager/src/ofxSceneManagerScene.cpp -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxSceneManagerScene.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxXmlSettings.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s330558702.121883
+e330558705.348409
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxXmlSettings.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+o/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp: In member function 'void ofxXmlSettings::loadFromBuffer(std::string)':
+o/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp:659: warning: unused variable 'loadOkay'
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection170"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp9b591feeecb3b341^de7259f1ecb3b341^-439"/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp: In member function 'void ofxXmlSettings::loadFromBuffer(std::string)':/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp:659: warning: unused variable 'loadOkay'1(21%IDEActivityLogMessage2@26"Unused variable 'loadOkay'-330558704#235#204#-1#-23%DVTTextDocumentLocation3@178"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp0000000000000000^658#18446744073709551615#658#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--0#0#0#-19%DVTDocumentLocation4@178"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp0000000000000000^4466"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxXmlSettings.o ../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/ofxXmlSettings.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/testApp.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/testApp.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s330558766.713862
+e330558771.692231
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/testApp.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/testApp.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/testApp.mm7ee0b62eedb3b341^2f36b133edb3b341^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/testApp.mm0000000000000000^4452"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/testApp.o src/testApp.mm normal i386 objective-c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-fexpakhakttmfuheecymephbjnza/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/src/testApp.mm -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/testApp.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxml.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxml.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s330558645.322119
+e330558647.293683
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxml.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxml.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxml.cpp5da652b5ecb3b341^012f4bb7ecb3b341^---0#0#0#-19%DVTDocumentLocation2@172"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxml.cpp0000000000000000^4440"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxml.o ../../../addons/ofxXmlSettings/libs/tinyxml.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxml.cpp -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxml.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxmlerror.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s330558647.293988
+e330558648.625709
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxmlerror.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection169"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp3c6b4bb7ecb3b341^6536a0b8ecb3b341^---0#0#0#-19%DVTDocumentLocation2@177"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp0000000000000000^4460"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxmlerror.o ../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxmlerror.o
+
+CCompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxmlparser.o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s330558648.478682
+e330558649.950761
+r1
+xCompileC
+xbuild/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxmlparser.o
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection170"Compile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp3ab27ab8ecb3b341^3c67f3b9ecb3b341^---0#0#0#-19%DVTDocumentLocation2@178"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp0000000000000000^4464"CompileC build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxmlparser.o ../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -include /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/tinyxmlparser.o
+
+CCopyPlistFile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/mnhPrototype-Info.plist mnhPrototype-Info.plist
+s330558645.056546
+e330558645.098141
+r1
+xCopyPlistFile
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/mnhPrototype-Info.plist
+xmnhPrototype-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Copy mnhPrototype-Info.plist8b8c0eb5ecb3b341^b02019b5ecb3b341^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/mnhPrototype-Info.plist0000000000000000^584"CopyPlistFile build/Debug-iphonesimulator/mnhPrototype.app/mnhPrototype-Info.plist mnhPrototype-Info.plist    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app -- mnhPrototype-Info.plist
+
+CCpResource ../../../addons/ofxVtron/ofxFreeType2/README build/Debug-iphonesimulator/mnhPrototype.app/README
+s330558645.098274
+e330558645.130033
+r1
+xCpResource
+x../../../addons/ofxVtron/ofxFreeType2/README
+xbuild/Debug-iphonesimulator/mnhPrototype.app/README
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/mnhPrototype.app/READMEd94119b5ecb3b341^b24a21b5ecb3b341^---0#0#0#-19%DVTDocumentLocation2@176"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/README000020442305f041^783"CpResource ../../../addons/ofxVtron/ofxFreeType2/README build/Debug-iphonesimulator/mnhPrototype.app/README    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxVtron/ofxFreeType2/README /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app
+
+CCpResource ../../../addons/ofxXmlSettings/install.xml build/Debug-iphonesimulator/mnhPrototype.app/install.xml
+s330558645.066783
+e330558645.110206
+r1
+xCpResource
+x../../../addons/ofxXmlSettings/install.xml
+xbuild/Debug-iphonesimulator/mnhPrototype.app/install.xml
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/mnhPrototype.app/install.xmle52b11b5ecb3b341^61371cb5ecb3b341^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/install.xml000020442305f041^784"CpResource ../../../addons/ofxXmlSettings/install.xml build/Debug-iphonesimulator/mnhPrototype.app/install.xml    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxXmlSettings/install.xml /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app
+
+CCpResource bin/data/Default.png build/Debug-iphonesimulator/mnhPrototype.app/Default.png
+s330558645.018780
+e330558645.066630
+r1
+xCpResource
+xbin/data/Default.png
+xbuild/Debug-iphonesimulator/mnhPrototype.app/Default.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/mnhPrototype.app/Default.png4d1005b5ecb3b341^591511b5ecb3b341^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/Default.png000020442305f041^740"CpResource bin/data/Default.png build/Debug-iphonesimulator/mnhPrototype.app/Default.png    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/bin/data/Default.png /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app
+
+CCpResource bin/data/Icon.png build/Debug-iphonesimulator/mnhPrototype.app/Icon.png
+s330558645.020410
+e330558645.056411
+r1
+xCpResource
+xbin/data/Icon.png
+xbuild/Debug-iphonesimulator/mnhPrototype.app/Icon.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/mnhPrototype.app/Icon.png1f4905b5ecb3b341^bd710eb5ecb3b341^---0#0#0#-19%DVTDocumentLocation2@178"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/Icon.png000020442305f041^731"CpResource bin/data/Icon.png build/Debug-iphonesimulator/mnhPrototype.app/Icon.png    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/bin/data/Icon.png /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app
+
+CGenerateDSYMFile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app.dSYM /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/mnhPrototype
+r0
+
+CLd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/mnhPrototype normal i386
+s330558855.120781
+e330558862.430186
+r0
+xLd
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/mnhPrototype
+xnormal
+xi386
+old: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/CppUnit.a, missing required architecture i386 in file
+old: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoFoundation.a, missing required architecture i386 in file
+old: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoNet.a, missing required architecture i386 in file
+old: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoUtil.a, missing required architecture i386 in file
+old: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoXML.a, missing required architecture i386 in file
+old: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/FreeImage/lib/iphone/freeimage-iphone.a, missing required architecture i386 in file
+old: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/freetype/lib/iphone/freetype-iphone.a, missing required architecture i386 in file
+old: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/glu/lib/iphone/glu-iphone.a, missing required architecture i386 in file
+oUndefined symbols for architecture i386:
+o  "ofxSceneManager2::~ofxSceneManager2()", referenced from:
+o      mnhBaseScene::~mnhBaseScene()in main.o
+o      mnhBaseScene::~mnhBaseScene()in testApp.o
+o      mnhBaseScene::~mnhBaseScene()in homeScene.o
+o      mnhBaseScene::mnhBaseScene()in mnhBaseScene.o
+o      mnhBaseScene::mnhBaseScene()in mnhBaseScene.o
+o      mnhBaseScene::~mnhBaseScene()in mnhBaseScene.o
+o      mnhBaseScene::~mnhBaseScene()in mnhBaseScene.o
+o      ...
+o  "ofxSceneManagerScene::ofxSceneManagerScene()", referenced from:
+o      mnhBaseScene::mnhBaseScene()in mnhBaseScene.o
+o      mnhBaseScene::mnhBaseScene()in mnhBaseScene.o
+o  "mnhSceneManager::mnhSceneManager()", referenced from:
+o      mnhSceneManager::getInstance()       in mnhSceneManager.o
+old: symbol(s) not found for architecture i386
+ocollect2: ld returned 1 exit status
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection171"Link /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/mnhPrototype7a171f87edb3b341^f50f6e8eedb3b341^-2634"ld: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/CppUnit.a, missing required architecture i386 in fileld: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoFoundation.a, missing required architecture i386 in fileld: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoNet.a, missing required architecture i386 in fileld: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoUtil.a, missing required architecture i386 in fileld: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoXML.a, missing required architecture i386 in fileld: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/FreeImage/lib/iphone/freeimage-iphone.a, missing required architecture i386 in fileld: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/freetype/lib/iphone/freetype-iphone.a, missing required architecture i386 in fileld: warning: ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/glu/lib/iphone/glu-iphone.a, missing required architecture i386 in fileUndefined symbols for architecture i386:  "ofxSceneManager2::~ofxSceneManager2()", referenced from:      mnhBaseScene::~mnhBaseScene()in main.o      mnhBaseScene::~mnhBaseScene()in testApp.o      mnhBaseScene::~mnhBaseScene()in homeScene.o      mnhBaseScene::mnhBaseScene()in mnhBaseScene.o      mnhBaseScene::mnhBaseScene()in mnhBaseScene.o      mnhBaseScene::~mnhBaseScene()in mnhBaseScene.o      mnhBaseScene::~mnhBaseScene()in mnhBaseScene.o      ...  "ofxSceneManagerScene::ofxSceneManagerScene()", referenced from:      mnhBaseScene::mnhBaseScene()in mnhBaseScene.o      mnhBaseScene::mnhBaseScene()in mnhBaseScene.o  "mnhSceneManager::mnhSceneManager()", referenced from:      mnhSceneManager::getInstance()       in mnhSceneManager.old: symbol(s) not found for architecture i386collect2: ld returned 1 exit status24(21%IDEActivityLogMessage2@206"Ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/CppUnit.a, missing required architecture i386 in file-330558862#0#220#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@213"Ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoFoundation.a, missing required architecture i386 in file-330558862#220#227#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@206"Ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoNet.a, missing required architecture i386 in file-330558862#447#220#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@207"Ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoUtil.a, missing required architecture i386 in file-330558862#667#221#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@206"Ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoXML.a, missing required architecture i386 in file-330558862#888#220#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@220"Ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/FreeImage/lib/iphone/freeimage-iphone.a, missing required architecture i386 in file-330558862#1108#234#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@218"Ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/freetype/lib/iphone/freetype-iphone.a, missing required architecture i386 in file-330558862#1342#232#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@208"Ignoring file /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/glu/lib/iphone/glu-iphone.a, missing required architecture i386 in file-330558862#1574#222#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@57""ofxSceneManager2::~ofxSceneManager2()", referenced from:-330558862#1837#60#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@38"MnhBaseScene::~mnhBaseScene()in main.o-330558862#1897#45#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@41"MnhBaseScene::~mnhBaseScene()in testApp.o-330558862#1942#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@43"MnhBaseScene::~mnhBaseScene()in homeScene.o-330558862#1990#50#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@45"MnhBaseScene::mnhBaseScene()in mnhBaseScene.o-330558862#2040#52#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@45"MnhBaseScene::mnhBaseScene()in mnhBaseScene.o-330558862#2092#52#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@46"MnhBaseScene::~mnhBaseScene()in mnhBaseScene.o-330558862#2144#53#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@46"MnhBaseScene::~mnhBaseScene()in mnhBaseScene.o-330558862#2197#53#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@3"...-330558862#2250#10#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@64""ofxSceneManagerScene::ofxSceneManagerScene()", referenced from:-330558862#2260#67#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@45"MnhBaseScene::mnhBaseScene()in mnhBaseScene.o-330558862#2327#52#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@45"MnhBaseScene::mnhBaseScene()in mnhBaseScene.o-330558862#2379#52#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@54""mnhSceneManager::mnhSceneManager()", referenced from:-330558862#2431#57#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@57"MnhSceneManager::getInstance()       in mnhSceneManager.o-330558862#2488#64#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@41"Symbol(s) not found for architecture i386-330558862#2552#46#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@35"Collect2: ld returned 1 exit status-330558862#2598#36#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--0#0#0#--6335"Ld build/Debug-iphonesimulator/mnhPrototype.app/mnhPrototype normal i386    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -L../../../addons/ofxZxing/libs -L../../../addons/ofxZxing/libs/zxing -L../../../addons/ofxZxing/libs/zxing/iphone42 -L../../../addons/ofxZxing/libs/zxing/osx -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/freetype/lib -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/freeimage/lib -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/FreeImage/lib/iphone -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/FreeImage/lib/osx -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/freetype/lib/iphone -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/freetype/lib/osx -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/glu/lib/iphone -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/osx -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/freetype/lib/osx -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxZxing/libs/zxing/iphone42 -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxZxing/libs/zxing/osx -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxOpenCv/libs/opencv/lib/iphone -L/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../addons/ofxOpenCv/libs/opencv/lib/osx -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -filelist /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Objects-normal/i386/mnhPrototype.LinkFileList -mmacosx-version-min=10.6 -ObjC -Xlinker -objc_abi_version -Xlinker 2 /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/libs/openFrameworksCompiled/lib/iphone/libofxiPhone_iphonesimulator_Debug.a -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework AudioToolbox -framework OpenAL -framework CoreLocation /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/CppUnit.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoFoundation.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoNet.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoUtil.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/iphone/PocoXML.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/osx/CppUnit.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/osx/PocoFoundation.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/osx/PocoNet.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/osx/PocoUtil.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/poco/lib/osx/PocoXML.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/FreeImage/lib/iphone/freeimage-iphone.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/FreeImage/lib/osx/freeimage.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/freetype/lib/iphone/freetype-iphone.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/glu/lib/iphone/glu-iphone.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/glu/lib/iphone/glu.a /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/../../../libs/freetype/lib/osx/freetype.a -framework CoreGraphics -framework CoreFoundation -framework CoreMedia -framework CoreVideo -liconv.2 -framework AVFoundation -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/mnhPrototype
+
+CPhaseScriptExecution "Run Script" /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/Script-9255DD331112741900D6945E.sh
+r0
+
+CProcessInfoPlistFile /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/Info.plist mnhPrototype-Info.plist
+s330558644.949484
+e330558645.015823
+r1
+xProcessInfoPlistFile
+x/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/Info.plist
+xmnhPrototype-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Process mnhPrototype-Info.plist9a27f3b4ecb3b341^f01604b5ecb3b341^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/mnhPrototype-Info.plist0000000000000000^805"ProcessInfoPlistFile build/Debug-iphonesimulator/mnhPrototype.app/Info.plist mnhPrototype-Info.plist    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility mnhPrototype-Info.plist -genpkginfo /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app/Info.plist
+
+CProcessPCH++ /Users/steve/Library/Developer/Xcode/DerivedData/mnhPrototype-enazldbnkpaldqghurnxdtuaaqps/Index/PrecompiledHeaders/iPhone_Prefix-bkuzkrmuipgrdzfrnvsthlbquzim_ast/iPhone_Prefix.pch.pth iPhone_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/steve/Library/Developer/Xcode/DerivedData/mnhPrototype-enazldbnkpaldqghurnxdtuaaqps/Index/PrecompiledHeaders/iPhone_Prefix-gthvbwgiriwrohaejrssrgfovbme_ast/iPhone_Prefix.pch.pth iPhone_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal i386 c++ com.apple.compilers.llvmgcc42
+s330558645.131976
+e330558645.320988
+r1
+xProcessPCH++
+x/var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch.gch
+xiPhone_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile iPhone_Prefix.pch25ea21b5ecb3b341^3b3652b5ecb3b341^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/iPhone_Prefix.pch0000000000000000^4248"ProcessPCH++ /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal i386 c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/iPhone_Prefix.pch -o /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-btyzajxrimlmyqhdnbsgajqpeowe/iPhone_Prefix.pch.gch
+
+CProcessPCH++ /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-fexpakhakttmfuheecymephbjnza/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvmgcc42
+s330558645.131786
+e330558648.478430
+r1
+xProcessPCH++
+x/var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-fexpakhakttmfuheecymephbjnza/iPhone_Prefix.pch.gch
+xiPhone_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile iPhone_Prefix.pchfce321b5ecb3b341^107a7ab8ecb3b341^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/iPhone_Prefix.pch0000000000000000^4326"ProcessPCH++ /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-fexpakhakttmfuheecymephbjnza/iPhone_Prefix.pch.gch iPhone_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvmgcc42    cd /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -Wno-protocol -Wno-deprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-generated-files.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-own-target-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-all-target-headers.hmap -iquote /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/mnhPrototype-project-headers.hmap -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/include -I../../../addons/ofxZxing/include -I../../../addons/ofxZxing/include/zxing -I../../../addons/ofxZxing/include/zxing/common -I../../../addons/ofxZxing/include/zxing/datamatrix -I../../../addons/ofxZxing/include/zxing/oned -I../../../addons/ofxZxing/include/zxing/qrcode -I../../../addons/ofxZxing/include/zxing/common/reedsolomon -I../../../addons/ofxZxing/include/zxing/datamatrix/decoder -I../../../addons/ofxZxing/include/zxing/datamatrix/detector -I../../../addons/ofxZxing/include/zxing/qrcode/decoder -I../../../addons/ofxZxing/include/zxing/qrcode/detector -I../../../libs/poco/include -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../addons/ofxMultitouch -I../../../addons/ofxMultitouch/src -I../../../addons/ofxiPhone -I../../../addons/ofxiPhone/src -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype -I../../../libs/freetype/include -I../../../libs/freetype/lib -I../../../libs/freetype/include/freetype2 -I../../../libs/freetype/lib/iphone -I../../../libs/freetype/lib/osx -I../../../libs/freetype/include/freetype2/freetype -I../../../libs/freetype/include/freetype2/freetype/config -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources/i386 -I/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/mnhPrototype.build/Debug-iphonesimulator/mnhPrototype.build/DerivedSources -F/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator -c /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/iPhone_Prefix.pch -o /var/folders/KH/KHQ9DMyOGoGMxcwc8Mrp2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhone_Prefix-fexpakhakttmfuheecymephbjnza/iPhone_Prefix.pch.gch
+
+CTouch /Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/of_preRelease_v0062_iphone_FAT/apps/Potion/MNH_BASIC_PROJECT/build/Debug-iphonesimulator/mnhPrototype.app
+r0
+

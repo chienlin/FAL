@@ -1,0 +1,101 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* CollectionsZone */ = {
+		activeExec = 0;
+		executables = (
+			B862208E139801E40040242D /* CollectionsZone */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B862208E139801E40040242D /* CollectionsZone */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* CollectionsZone */;
+		codeSenseManager = B86220A4139801F50040242D /* Code sense */;
+		executables = (
+			B862208E139801E40040242D /* CollectionsZone */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 328729060;
+			PBXWorkspaceStateSaveDate = 328729060;
+		};
+		perUserProjectItems = {
+			B862209E139801F50040242D = B862209E139801F50040242D /* PBXBookmark */;
+			B862209F139801F50040242D = B862209F139801F50040242D /* PBXBookmark */;
+		};
+		sourceControlManager = B86220A3139801F50040242D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	B862208E139801E40040242D /* CollectionsZone */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CollectionsZone;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	B862209E139801F50040242D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BB24DDC910DA781C00E9C588 /* ofxiphone-Info.plist */;
+	};
+	B862209F139801F50040242D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BB24DDC910DA781C00E9C588 /* ofxiphone-Info.plist */;
+		name = "/Volumes/PoDocs/_PROJECTS/MNH/04_Software/Alpha/CollectionsZone/of_preRelease_v0062_iphone_FAT/apps/Potion/collectionsZone/ofxiphone-Info.plist";
+	};
+	B86220A3139801F50040242D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B86220A4139801F50040242D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
