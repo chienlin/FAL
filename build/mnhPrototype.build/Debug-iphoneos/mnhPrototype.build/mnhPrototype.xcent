@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>JT732EFN7Q.CollectionsZone</string>
+	<string>CW3EPWS89S.CollectionsZone</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>JT732EFN7Q.CollectionsZone</string>
+		<string>CW3EPWS89S.CollectionsZone</string>
 	</array>
 </dict>
 </plist>
