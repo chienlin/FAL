@@ -77,7 +77,7 @@ class researchScene : public mnhBaseScene {
         ofImage threeD;
         
         //setup for 3dmodel 
-        ofx3DModelLoader boneModel;
+        ofx3DModelLoader *boneModel;
         
         float touchID;
         float touchX, touchY;

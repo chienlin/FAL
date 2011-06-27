@@ -92,20 +92,22 @@ void researchScene::update() {
 //    }
     
     if (!isTouchDown)
-        boneModel.setRotation(1, 270 + ofGetElapsedTimef() * 30, 0, 1, 0); 
+        boneModel->setRotation(1, 270 + ofGetElapsedTimef() * 30, 0, 1, 0); 
 }
 
 //------------------------------------------------------------------
 void researchScene::activate() {
     
     mgr.setCurScene(MNH_RESEARCH_SCENE_FIRST);
-    
+    init3DViewer(t);
     cout << "Activate Research" << endl;
 }
 
 //------------------------------------------------------------------
 void researchScene::deactivate() {
     cout << "Deactivate Research" << endl;
+    delete boneModel;
+    boneModel = NULL;
 }
 
 
@@ -151,7 +153,7 @@ void researchScene::draw() {
             sceneName = "Third Sub Scene!";
             break;
         case MNH_RESEARCH_SCENE_FIFTH:
-            init3DViewer(t);
+            
             drawModel();
             //threeD.draw(0,0);
             
@@ -185,33 +187,25 @@ void researchScene::init3DViewer(traumaType trauma){
     string boneFileName;
     switch (trauma) {
         case MNH_FAL_ANTEMORTEM:
-            boneFileName = "Skull_321498_aka_843-reduced10k-tex.3ds";
+            boneFileName = "3dmodels/Skull_321498_aka_843-reduced10k-tex.3ds";
             break;
         case MNH_FAL_PERIMORTEM:
-            boneFileName = "Cranium_209434-reduced10k.3ds";
+            boneFileName = "3dmodels/Cranium_209434-reduced10k.3ds";
             break;
         default:
             break;
     }
-    
-    boneModel.loadModel(boneFileName, 3);
-    model3DS* model = (model3DS*)boneModel.model;
-    
-    //boneModel info 
-    for (int i=0; i<model->m_meshes.size(); i++) {
-        mesh3DS* m3ds = &model->m_meshes[i];
-        cout << endl;
-        cout << "# of model verts "  << m3ds->m_vertices.size() << endl;
-        cout << "# of model normals " << m3ds->m_normals.size() << endl;
-        cout << "# of model faces " << m3ds->m_faces.size() << endl;
-    }
+    cout << "Loading 3D Model Viewer" << endl;
+    boneModel = new ofx3DModelLoader();
+    boneModel->loadModel(boneFileName, 3);
+    model3DS* model = (model3DS*)boneModel->model;
     
     //set model to right-side-up
-    boneModel.setRotation(0, 180.0, 0, 0, 1);
+    boneModel->setRotation(0, 180.0, 0, 0, 1);
     //set initial scale
-    boneModel.setScale(0.75, 0.75, 0.75);
+    boneModel->setScale(0.75, 0.75, 0.75);
     //set initial pos
-    boneModel.setPosition(modelXPos, modelYPos, 0);
+    boneModel->setPosition(modelXPos, modelYPos, 0);
 }
 
 //--------------------------------------------------------------
@@ -226,7 +220,7 @@ void researchScene::drawModel(){
         glTranslatef(-modelXPos,-modelYPos,0);
         
         ofSetColor(254, 254, 254, 255);
-        boneModel.draw();
+        boneModel->draw();
         glDisable(GL_LIGHTING);
     glPopMatrix();
 }
@@ -317,11 +311,11 @@ void researchScene::touchUp(ofTouchEventArgs &touch){
 //--------------------------------------------------------------
 void researchScene::touchDoubleTap(ofTouchEventArgs &touch){
     if(!firstDoubleTap) {
-        boneModel.setScale(1.0, 1.0, 1.0);
+        boneModel->setScale(1.0, 1.0, 1.0);
     }
     
     if(firstDoubleTap) {
-        boneModel.setScale(0.75, 0.75, 0.75);
+        boneModel->setScale(0.75, 0.75, 0.75);
     }
     
     firstDoubleTap = !firstDoubleTap;
