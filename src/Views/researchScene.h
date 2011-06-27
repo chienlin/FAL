@@ -56,7 +56,8 @@ class researchScene : public mnhBaseScene {
     
         baseButton anteB;
         baseButton periB;
-        baseButton postB;    
+        baseButton postB;
+        baseButton backtoinfo;
     
     
         //set up for subscene

@@ -19,7 +19,7 @@ void activityScene::setup() {
     //level up button
     levelupB.setSize(100, 50);
     levelupB.setPos(ofGetWidth()/2 - levelupB.rect.width/2,ofGetHeight()-levelupB.rect.height);
-    levelupB.setLabel("Level UP!", &mnhAssets->whitneySemiBold22);
+    levelupB.setLabel("Level Up!", &mnhAssets->whitneySemiBold22);
     
     //start over button
     startoverB.setSize(100, 50);
@@ -52,22 +52,22 @@ void activityScene::draw() {
     switch(mgr.getCurScene()) {
         case MNH_ACTIVITY_SCENE_FIRST:
             activity1.draw(0,0);
-            next.draw(ofGetWidth()-next.rect.width,ofGetHeight()-50-back.rect.height);
+            next.draw(ofGetWidth()-next.rect.width,ofGetHeight()-50-next.rect.height);
             sceneName = "First Sub Scene!";
             
             break;
         case MNH_ACTIVITY_SCENE_SECOND:
             activity2.draw(0,0);
-            startoverB.draw(0,ofGetHeight()-50-startoverB.rect.height);
-            next.draw(ofGetWidth()-next.rect.width,ofGetHeight()-50-back.rect.height);
+//            startoverB.draw(0,ofGetHeight()-50-startoverB.rect.height);
+            next.draw(ofGetWidth()-next.rect.width,ofGetHeight()-50-next.rect.height);
 
             sceneName = "Second Sub Scene!";
             
             break;
         case MNH_ACTIVITY_SCENE_THIRD:
             activity3.draw(0,0);
-            startoverB.draw(0,ofGetHeight()-50-startoverB.rect.height);
-            levelupB.draw(ofGetWidth()-levelupB.rect.width,ofGetHeight()-50-startoverB.rect.height);
+            startoverB.draw(ofGetWidth()-startoverB.rect.width,ofGetHeight()-50-startoverB.rect.height);
+            levelupB.draw(ofGetWidth()-levelupB.rect.width,ofGetHeight()-50-levelupB.rect.height-startoverB.rect.height-20);
             sceneName = "Third Sub Scene!";
             
             break;
@@ -88,20 +88,20 @@ void activityScene::draw() {
 
 //--------------------------------------------------------------
 void activityScene::touchDown(ofTouchEventArgs &touch){
-    if (mgr.getCurScene() == 2) {
+    if (mgr.getCurScene() < 2) {
+        
+        next.touchDown(touch);
+        
+    }else if (mgr.getCurScene() == 2) {
         
         levelupB.touchDown(touch);
+        startoverB.touchDown(touch);
         
-    }
-    
-    if (mgr.getCurScene() < 4 && mgr.getCurScene() > 1) {
+    }else if (mgr.getCurScene() == 3) {
         
         startoverB.touchDown(touch);
     }
-    if (mgr.getCurScene() < 2 ) {
-        
-        next.touchDown(touch);
-    }
+ 
     
 }
 
@@ -114,24 +114,37 @@ void activityScene::touchMoved(ofTouchEventArgs &touch){
 //--------------------------------------------------------------
 void activityScene::touchUp(ofTouchEventArgs &touch){
     //Switch Scenes
-    if (next.isPressed()) {
-        
-        mgr.setCurScene(mgr.getCurScene() + 1);
-              
-    }
     
-  
-    if(startoverB.isPressed()&& mgr.getCurScene() == 2 && mgr.getCurScene() == 3 ){
-             mgr.setCurScene(0);
-        
-    } 
-    
-    if (levelupB.isPressed() && mgr.getCurScene() == 2){
-        mgr.setCurScene(3);
-    
-    }
-    
-    
-    
-    
+    switch(mgr.getCurScene()) {
+        case MNH_ACTIVITY_SCENE_FIRST:
+            if (next.isPressed()) {
+                mgr.setCurScene(1);
+            }
+            cout<<"we are in screen 0"<<endl;
+            
+            break;
+        case MNH_ACTIVITY_SCENE_SECOND:
+            if (next.isPressed()) {
+                mgr.setCurScene(2);
+            }
+            
+            break;
+        case MNH_ACTIVITY_SCENE_THIRD:
+            if (levelupB.isPressed()) {
+                mgr.setCurScene(3);
+            }
+            
+            if (startoverB.isPressed()) {
+                mgr.setCurScene(0);
+            }
+                        
+            break;
+        case MNH_ACTIVITY_SCENE_FOURTH:
+            if (startoverB.isPressed()) {
+                mgr.setCurScene(0);
+            }
+            
+            break;
+            
+    }//switch
 }

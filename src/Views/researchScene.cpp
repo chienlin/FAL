@@ -53,10 +53,17 @@ void researchScene::setup() {
     back.setSize(100, 50);
     back.setPos(ofGetWidth()/2 - back.rect.width/2,ofGetHeight()-back.rect.height);
     back.setLabel("Back to Research!", &mnhAssets->whitneySemiBold22);
+    //back to info
+    backtoinfo.setSize(100, 50);
+    backtoinfo.setPos(ofGetWidth()/2 - back.rect.width/2,ofGetHeight()-back.rect.height);
+    backtoinfo.setLabel("Back to Find the Trauma!", &mnhAssets->whitneySemiBold22);
+
     //start activity button
     start.setSize(100, 50);
     start.setPos(back.rect.width/2,back.rect.height);
     start.setLabel("Start Activity!", &mnhAssets->whitneySemiBold22);
+    
+    
     
 
 }
@@ -140,7 +147,7 @@ void researchScene::draw() {
             break;
         case MNH_RESEARCH_SCENE_FIFTH:
             threeD.draw(0,0);
-            back.draw(0,ofGetHeight()-back.rect.height-50);
+            backtoinfo.draw(0,ofGetHeight()-backtoinfo.rect.height-50);
             start.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
             sceneName = "Third Sub Scene!";
             break;
@@ -155,22 +162,50 @@ void researchScene::draw() {
 
 //--------------------------------------------------------------
 void researchScene::touchDown(ofTouchEventArgs &touch){
-   
-    //active the buttons only for the first scene
-    if(mgr.getCurScene() == 0) 
-    {
-        caseB.touchDown(touch);
-        infoB.touchDown(touch);
-        hintB.touchDown(touch);
+    switch(mgr.getCurScene()) {
+        case MNH_RESEARCH_SCENE_FIRST:
+            caseB.touchDown(touch);
+            infoB.touchDown(touch);
+            hintB.touchDown(touch);
+            break;
+            
+        case MNH_RESEARCH_SCENE_SECOND:
+            back.touchDown(touch);
+            start.touchDown(touch);
+            break;
+        case MNH_RESEARCH_SCENE_THIRD:
+            anteB.touchDown(touch);
+            periB.touchDown(touch);
+            postB.touchDown(touch);
+            back.touchDown(touch);
+            start.touchDown(touch);
+            break;
+            
+        case MNH_RESEARCH_SCENE_FOURTH:
+            back.touchDown(touch);
+            start.touchDown(touch);
+            break;
+        case MNH_RESEARCH_SCENE_FIFTH:
+            backtoinfo.touchDown(touch);
+            start.touchDown(touch);
+
+            break;
     }
-    if(mgr.getCurScene() == 2) 
-    {
-        anteB.touchDown(touch);
-        periB.touchDown(touch);
-        postB.touchDown(touch);
-    }
-    back.touchDown(touch);
-    start.touchDown(touch);
+ //    //active the buttons only for the first scene
+//    if(mgr.getCurScene() == 0) 
+//    {
+//        caseB.touchDown(touch);
+//        infoB.touchDown(touch);
+//        hintB.touchDown(touch);
+//    }
+//    if(mgr.getCurScene() == 2) 
+//    {
+//        anteB.touchDown(touch);
+//        periB.touchDown(touch);
+//        postB.touchDown(touch);
+//    }
+//    back.touchDown(touch);
+//    start.touchDown(touch);
 }
 
 
@@ -181,6 +216,7 @@ void researchScene::touchMoved(ofTouchEventArgs &touch){
     infoB.touchMoved(touch);
     hintB.touchMoved(touch); 
     back.touchMoved(touch);
+    backtoinfo.touchMoved(touch);
     start.touchDown(touch);
 
 
@@ -190,38 +226,110 @@ void researchScene::touchMoved(ofTouchEventArgs &touch){
 //--------------------------------------------------------------
 void researchScene::touchUp(ofTouchEventArgs &touch){
     
-    if (back.isPressed()) {
-        mgr.setCurScene(MNH_RESEARCH_SCENE_FIRST);
-    }else if(start.isPressed()){
-        mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
-        
-        cout<<"start is pressed"<<endl;
-        
-    // for the research subscenes    
-    }else if (caseB.isPressed()) {
-        mgr.setCurScene(MNH_RESEARCH_SCENE_SECOND);
-    }else if(infoB.isPressed()){
-        mgr.setCurScene(MNH_RESEARCH_SCENE_THIRD);
+    switch(mgr.getCurScene()) {
+        case MNH_RESEARCH_SCENE_FIRST:
+            if (caseB.isPressed()) {
+                mgr.setCurScene(MNH_RESEARCH_SCENE_SECOND);
+            }else if(infoB.isPressed()){
+                mgr.setCurScene(MNH_RESEARCH_SCENE_THIRD);
+                
+            }else if(hintB.isPressed()){
+                mgr.setCurScene(MNH_RESEARCH_SCENE_FOURTH);
+            }
 
-    }else if(hintB.isPressed()){
-        mgr.setCurScene(MNH_RESEARCH_SCENE_FOURTH);
+            break;
+            
+        case MNH_RESEARCH_SCENE_SECOND:
+            if (back.isPressed()) {
+                mgr.setCurScene(MNH_RESEARCH_SCENE_FIRST);
+            }else if(start.isPressed()){
+                mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
+            }
+            break;
+        case MNH_RESEARCH_SCENE_THIRD:
+            if (anteB.isPressed())
+            {
+                mgr.setCurScene(MNH_RESEARCH_SCENE_FIFTH);
+                cout<<"anteB";
+            }else if (periB.isPressed())
+            {
+                cout<<"periB";
+            }else if(postB.isPressed())
+            {
+                cout<<"postB";
+            }
+            if (back.isPressed()) {
+                mgr.setCurScene(MNH_RESEARCH_SCENE_FIRST);
+            }else if(start.isPressed()){
+                mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
+            }
+            break;
+            
+        case MNH_RESEARCH_SCENE_FOURTH:
+            if (back.isPressed()) {
+                mgr.setCurScene(MNH_RESEARCH_SCENE_FIRST);
+            }else if(start.isPressed()){
+                mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
+            }
+            break;
+        case MNH_RESEARCH_SCENE_FIFTH:
+            if (backtoinfo.isPressed()) {
+                mgr.setCurScene(MNH_RESEARCH_SCENE_THIRD);
+            }else if(start.isPressed()){
+                mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
+            }
+            
+            break;
     }
+
     
     
-    // for the info subscenes
-    if(mgr.getCurScene() == 2) 
-    {
-        if (anteB.isPressed())
-        {
-            mgr.setCurScene(MNH_RESEARCH_SCENE_FIFTH);
-            cout<<"anteB";
-        }else if (periB.isPressed())
-        {
-            cout<<"periB";
-        }else if(postB.isPressed())
-        {
-            cout<<"postB";
-        }
-    }
+    
+    
+    
+    
+    
+    
+    
+//    
+//    
+//    
+//    
+//    
+//    
+//    
+//    if (back.isPressed()) {
+//        mgr.setCurScene(MNH_RESEARCH_SCENE_FIRST);
+//    }else if(start.isPressed()){
+//        mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
+//        
+//        cout<<"start is pressed"<<endl;
+//        
+//    // for the research subscenes    
+//    }else if (caseB.isPressed()) {
+//        mgr.setCurScene(MNH_RESEARCH_SCENE_SECOND);
+//    }else if(infoB.isPressed()){
+//        mgr.setCurScene(MNH_RESEARCH_SCENE_THIRD);
+//
+//    }else if(hintB.isPressed()){
+//        mgr.setCurScene(MNH_RESEARCH_SCENE_FOURTH);
+//    }
+//    
+//    
+//    // for the info subscenes
+//    if(mgr.getCurScene() == 2) 
+//    {
+//        if (anteB.isPressed())
+//        {
+//            mgr.setCurScene(MNH_RESEARCH_SCENE_FIFTH);
+//            cout<<"anteB";
+//        }else if (periB.isPressed())
+//        {
+//            cout<<"periB";
+//        }else if(postB.isPressed())
+//        {
+//            cout<<"postB";
+//        }
+//    }
 
 }

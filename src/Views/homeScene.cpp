@@ -64,7 +64,7 @@ void homeScene::draw() {
     ofDisableAlphaBlending();
     
 
-    button.draw();
+//    button.draw();
 
 }
 
@@ -77,20 +77,20 @@ void homeScene::draw() {
 
 //--------------------------------------------------------------
 void homeScene::touchDown(ofTouchEventArgs &touch){
-    button.touchDown(touch);
+//    button.touchDown(touch);
 }
 
 
 //--------------------------------------------------------------
 void homeScene::touchMoved(ofTouchEventArgs &touch){
-    button.touchMoved(touch);
+//    button.touchMoved(touch);
 }
 
 
 //--------------------------------------------------------------
 void homeScene::touchUp(ofTouchEventArgs &touch){
     //Switch Scenes
-    if(button.isPressed()) {
+//    if(button.isPressed()) {
         if(mgr.getCurScene() < MNH_HOME_SCENE_TOTAL-1) {
             mgr.setCurScene(mgr.getCurScene() + 1);
         } else {
@@ -98,6 +98,6 @@ void homeScene::touchUp(ofTouchEventArgs &touch){
             mgr.setCurScene(0);
 
         }
-    }
-    button.touchUp(touch);
+//    }
+//    button.touchUp(touch);
 }
