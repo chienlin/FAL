@@ -9,13 +9,27 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "src/Views/activityScene.h"
-         timestampString = "330885336.761745"
+         timestampString = "330972137.046242"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "37"
-         endingLineNumber = "37"
+         startingLineNumber = "39"
+         endingLineNumber = "39"
          landmarkName = "class activityScene"
          landmarkType = "3">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "src/Views/researchScene.cpp"
+         timestampString = "330986210.452356"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "272"
+         endingLineNumber = "272"
+         landmarkName = "researchScene::touchUp(ofTouchEventArgs &amp;touch)"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

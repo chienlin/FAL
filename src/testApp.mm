@@ -62,6 +62,9 @@ void testApp::update(){
         scenes[mnhSM->getCurScene()]->activate();
     }
     
+
+    
+    
     scenes[mnhSM->getCurScene()]->update();
     
     menu.update();
@@ -100,6 +103,12 @@ void testApp::touchUp(ofTouchEventArgs &touch){
     scenes[mnhSM->getCurScene()]->touchUp(touch);
     
     menu.touchUp(touch);
+    
+    // if menu is pressed, the screen alway goes back to first subscence(activate)
+    if (menu.touched) {
+        scenes[mnhSM->getCurScene()]->activate();
+    }
+    menu.touched = false;
 }
 
 //--------------------------------------------------------------

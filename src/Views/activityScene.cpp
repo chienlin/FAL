@@ -29,10 +29,12 @@ void activityScene::setup() {
     next.setSize(100, 50);
     next.setPos(next.rect.width/2,next.rect.height);
     next.setLabel("Next", &mnhAssets->whitneySemiBold22);
+    
+    //mail button for levelup page
+    mail.setSize(100, 50);
+    mail.setPos(mail.rect.width/2,mail.rect.height);
+    mail.setLabel("Mail", &mnhAssets->whitneySemiBold22);
 
-//    back.setSize(100, 50);
-//    back.setPos(back.rect.width/2,back.rect.height);
-//    back.setLabel("Back", &mnhAssets->whitneySemiBold22);
 }
 
 
@@ -40,6 +42,19 @@ void activityScene::setup() {
 //------------------------------------------------------------------
 void activityScene::update() {
 }
+//------------------------------------------------------------------
+void activityScene::activate() {
+    
+    mgr.setCurScene(MNH_ACTIVITY_SCENE_FIRST);
+    cout << "Activate Activity" << endl;
+}
+
+//------------------------------------------------------------------
+void activityScene::deactivate() {
+
+    cout << "Deactivate Activity" << endl;
+}
+
 
 
 
@@ -74,6 +89,7 @@ void activityScene::draw() {
         case MNH_ACTIVITY_SCENE_FOURTH:
             levelup.draw(0,0);
             startoverB.draw(0,ofGetHeight()-50-startoverB.rect.height);
+           // mail.draw(MNH_GRID_CELL_SIZE*2,MNH_GRID_CELL_SIZE*3);
             sceneName = "Fourth Sub Scene!";
             
             break;
@@ -100,6 +116,7 @@ void activityScene::touchDown(ofTouchEventArgs &touch){
     }else if (mgr.getCurScene() == 3) {
         
         startoverB.touchDown(touch);
+       // mail.touchDown(touch);
     }
  
     
@@ -142,6 +159,11 @@ void activityScene::touchUp(ofTouchEventArgs &touch){
         case MNH_ACTIVITY_SCENE_FOURTH:
             if (startoverB.isPressed()) {
                 mgr.setCurScene(0);
+            }else if (mail.isPressed()){
+                //mail box jump
+                
+                ofSetColor(255,0,0);
+                ofRectangle(100,100,100,100);
             }
             
             break;

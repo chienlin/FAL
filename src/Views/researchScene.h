@@ -11,6 +11,7 @@
 #include "mnhBaseScene.h"
 #include "ofx3DModelLoader.h"
 #include "baseButton.h"
+#include "mnhBottomMenu.h"
 
 enum {
     MNH_RESEARCH_SCENE_FIRST,
@@ -59,7 +60,7 @@ class researchScene : public mnhBaseScene {
         baseButton back;
         baseButton start;
         
-        //set up for t button
+        //set up for 3D button
         ofImage anteI;
         ofImage periI;
         ofImage postI;
@@ -73,6 +74,12 @@ class researchScene : public mnhBaseScene {
         ofImage caseP;
         ofImage infoP;
         ofImage hintP;
+    
+        //set up for check mark
+        ofImage checkmark;
+        bool casechecked;  
+        bool infochecked;
+        bool hintchecked;
                 
         //setup for 3dmodel 
         ofx3DModelLoader *boneModel;

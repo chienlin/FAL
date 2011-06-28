@@ -44,6 +44,10 @@ class mnhBottomMenu : public baseButton {
     
         mnhAssetManager* mnhAssets;
         mnhSceneManager* mnhSM;
+    
+        //edit by chien
+        //if the menu button is pressed, touched = true.
+        bool touched;
     private:
         bool bShowing;
         int showingY;

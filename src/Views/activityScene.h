@@ -25,6 +25,8 @@ class activityScene : public mnhBaseScene {
 		void setup();
 		void update();
 		void draw();
+        void activate();
+    void deactivate();
         
         void touchDown(ofTouchEventArgs &touch);
         void touchMoved(ofTouchEventArgs &touch);
@@ -38,5 +40,6 @@ class activityScene : public mnhBaseScene {
         baseButton startoverB;
         baseButton next;
         baseButton back;
+        baseButton mail;
     
 };
