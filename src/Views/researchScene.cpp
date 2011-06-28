@@ -34,9 +34,9 @@ void researchScene::setup() {
     infoB.setImage(&infoI,&infoI);
     hintB.setImage(&hintI,&hintI);
     
-    caseB.setPos(ofGetWidth()/6-caseB.rect.width/2,450);
-    infoB.setPos(ofGetWidth()/6*3-infoB.rect.width/2,450);
-    hintB.setPos(ofGetWidth()/6*5-hintB.rect.width/2,450);
+    caseB.setPos(ofGetWidth()/6-caseB.rect.width/2,MNH_GRID_CELL_SIZE*3);
+    infoB.setPos(ofGetWidth()/6*3-infoB.rect.width/2,MNH_GRID_CELL_SIZE*3);
+    hintB.setPos(ofGetWidth()/6*5-hintB.rect.width/2,MNH_GRID_CELL_SIZE*3);
 
     //set up for t buttons
     anteI.loadImage("images/screens/bone/ante.png");
@@ -56,7 +56,7 @@ void researchScene::setup() {
     //back to research button
     back.setSize(100, 50);
     back.setPos(ofGetWidth()/2 - back.rect.width/2,ofGetHeight()-back.rect.height);
-    back.setLabel("Back to Research!", &mnhAssets->whitneySemiBold22);
+    back.setLabel("Back to Resources!", &mnhAssets->whitneySemiBold22);
     //back to info
     backtoinfo.setSize(100, 50);
     backtoinfo.setPos(ofGetWidth()/2 - back.rect.width/2,ofGetHeight()-back.rect.height);

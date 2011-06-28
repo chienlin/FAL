@@ -30,7 +30,7 @@ void mnhBottomMenu::setup() {
     
     //Set Labels
     labels[MNH_BTM_MENU_HOME]       = "Home";
-    labels[MNH_BTM_MENU_RESEARCH]   = "Research";
+    labels[MNH_BTM_MENU_RESEARCH]   = "Resources";
     labels[MNH_BTM_MENU_ACTIVITY]   = "Activity";
     
     //Create Buttons
