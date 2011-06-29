@@ -68,6 +68,8 @@ void testApp::update(){
     scenes[mnhSM->getCurScene()]->update();
     
     menu.update();
+//    scenes[0]->location_at_act;
+    
 }
 
 //--------------------------------------------------------------

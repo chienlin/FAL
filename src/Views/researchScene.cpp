@@ -66,7 +66,7 @@ void researchScene::setup() {
     back.setPos(ofGetWidth()/2 - back.rect.width/2,ofGetHeight()-back.rect.height);
     back.setLabel("Back to Resources", &mnhAssets->whitneySemiBold22);
     
-    //back to info
+    //back to find trauma
     backtoinfo.setSize(100, 50);
     backtoinfo.setPos(ofGetWidth()/2 - back.rect.width/2,ofGetHeight()-back.rect.height);
     backtoinfo.setLabel("Back to Find the Trauma", &mnhAssets->whitneySemiBold22);
@@ -76,6 +76,15 @@ void researchScene::setup() {
     start.setPos(back.rect.width/2,back.rect.height);
     start.setLabel("Start Activity", &mnhAssets->whitneySemiBold22);
     
+    //back to continue activity
+    backtoact.setSize(100, 50);
+    backtoact.setPos(backtoact.rect.width/2,backtoact.rect.height);
+    backtoact.setLabel("back to Activity", &mnhAssets->whitneySemiBold22);
+
+    location_at_act = 0;
+    
+    
+    //double tap
     firstDoubleTap = false;
     isTouchDown = false;
     touchX = 0;
@@ -110,6 +119,7 @@ void researchScene::deactivate() {
 //------------------------------------------------------------------
 void researchScene::draw() {
     
+   
     ofEnableAlphaBlending();
     drawGrid();    
        
@@ -141,6 +151,8 @@ void researchScene::draw() {
             caseP.draw(0,0);
             back.draw(ofGetWidth()-back.rect.width,0);
             start.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
+//            backtoact.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
+
             sceneName = "Case info page!";
             break;
         case MNH_RESEARCH_SCENE_THIRD:
@@ -152,6 +164,8 @@ void researchScene::draw() {
             
             back.draw(ofGetWidth()-back.rect.width,0);
             start.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
+//            backtoact.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
+
             sceneName = "Find the trauma";
             break;
             
@@ -159,6 +173,8 @@ void researchScene::draw() {
             hintP.draw(0,0);
             back.draw(ofGetWidth()-back.rect.width,0);
             start.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
+//            backtoact.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
+
             sceneName = "Hint";
             break;
         case MNH_RESEARCH_SCENE_FIFTH:
@@ -249,6 +265,7 @@ void researchScene::touchDown(ofTouchEventArgs &touch){
         case MNH_RESEARCH_SCENE_SECOND:
             back.touchDown(touch);
             start.touchDown(touch);
+            backtoact.touchDown(touch);
             break;
         case MNH_RESEARCH_SCENE_THIRD:
             anteB.touchDown(touch);
@@ -256,11 +273,15 @@ void researchScene::touchDown(ofTouchEventArgs &touch){
             postB.touchDown(touch);
             back.touchDown(touch);
             start.touchDown(touch);
+            backtoact.touchDown(touch);
+
             break;
             
         case MNH_RESEARCH_SCENE_FOURTH:
             back.touchDown(touch);
             start.touchDown(touch);
+            backtoact.touchDown(touch);
+
             break;
         case MNH_RESEARCH_SCENE_FIFTH:
             backtoinfo.touchDown(touch);

@@ -12,6 +12,7 @@
 #include "ofx3DModelLoader.h"
 #include "baseButton.h"
 #include "mnhBottomMenu.h"
+#include "activityScene.h"
 
 enum {
     MNH_RESEARCH_SCENE_FIRST,
@@ -68,7 +69,9 @@ class researchScene : public mnhBaseScene {
         baseButton anteB;
         baseButton periB;
         baseButton postB;
-        baseButton backtoinfo;        
+        baseButton backtoinfo;
+        baseButton backtoact;
+
         
         //set up for subscene
         ofImage caseP;
@@ -94,6 +97,10 @@ class researchScene : public mnhBaseScene {
         
         void init3DViewer(traumaType trauma);
         void drawModel();
+    
+    
+        //try to track
+        int location_at_act;
     
         
 };
