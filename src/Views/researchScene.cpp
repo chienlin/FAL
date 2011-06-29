@@ -92,8 +92,8 @@ void researchScene::update() {
 //        }
 //    }
     
-    if (!isTouchDown)
-        boneModel->setRotation(1, 270 + ofGetElapsedTimef() * 30, 0, 1, 0); 
+    //if (!isTouchDown)
+        //boneModel->setRotation(1, 270 + ofGetElapsedTimef() * 30, 0, 1, 0); 
 }
 
 //------------------------------------------------------------------
@@ -187,7 +187,7 @@ void researchScene::init3DViewer(traumaType trauma){
     string boneFileName;
     switch (trauma) {
         case MNH_FAL_ANTEMORTEM:
-            boneFileName = "3dmodels/Skull_321498_aka_843-reduced10k-tex.3ds";
+            boneFileName = "3dmodels/Skull_321498_aka_843-reduced10k-annontated.3ds";
             break;
         case MNH_FAL_PERIMORTEM:
             boneFileName = "3dmodels/Cranium_209434-reduced10k.3ds";
@@ -215,8 +215,11 @@ void researchScene::drawModel(){
         //draw in middle of the screen
         glTranslatef(modelXPos,modelYPos,0);
         //tumble according to mouse
-        glRotatef(-touchY,1,0,0);
-        glRotatef(touchX,0,1,0);
+        //glRotatef(-touchY/2,1,0,0);
+        //glRotatef(touchX/2,0,1,0);
+        boneModel->setRotation(1, -ofMap(touchY, 0, 768, 0, 360), 1, 0, 0);
+                
+        boneModel->setRotation(2, ofMap(touchX, 0, 1024, 0, 360), 0, 1, 0); 
         glTranslatef(-modelXPos,-modelYPos,0);
         
         ofSetColor(254, 254, 254, 255);

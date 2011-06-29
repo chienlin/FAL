@@ -10,6 +10,7 @@
 #include "ofMain.h"
 #include "mnhBaseScene.h"
 #include "baseButton.h"
+//#include "ofxMail.h"
 
 enum {
     MNH_ACTIVITY_SCENE_FIRST,
@@ -38,5 +39,7 @@ class activityScene : public mnhBaseScene {
         baseButton startoverB;
         baseButton next;
         baseButton back;
+    
+//        ofxMail theMail;
     
 };

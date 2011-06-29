@@ -6,11 +6,18 @@
 //  Copyright 2011 Potion. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#include "ofMain.h"
+#import <MessageUI/MessageUI.h>
 
-
-@interface ofxMail : NSObject {
+class ofxMail
+{
+public:
+    ofxMail();
+    ~ofxMail();
     
-}
+    void show();
+    void hide();
 
-@end
+protected:
+    MFMailComposeViewController *mailVC;
+};
