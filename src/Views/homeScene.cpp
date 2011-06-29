@@ -10,18 +10,13 @@
 
 //------------------------------------------------------------------
 void homeScene::setup() {
-   
-    button.setSize(100, 50);
-    button.setPos(ofGetWidth()/2 - button.rect.width/2,500);
-    button.setLabel("Next Scene!", &mnhAssets->whitneySemiBold22);
-    sceneName = "Home";
-    
+    //set up subscenes
     homeScreen1.loadImage("images/screens/home.png");
     homeScreen2.loadImage("images/screens/memo.png");
     
-    
-    
     mgr.setCurScene(MNH_HOME_SCENE_FIRST);
+    sceneName = "Home";
+
 }
 
 
@@ -37,6 +32,13 @@ void homeScene::update() {
             break;
        
     }
+}
+//------------------------------------------------------------------
+void homeScene::activate() {
+    
+    mgr.setCurScene(MNH_HOME_SCENE_FIRST);
+    cout<<"home screen active";
+   
 }
 
 
@@ -89,15 +91,17 @@ void homeScene::touchMoved(ofTouchEventArgs &touch){
 
 //--------------------------------------------------------------
 void homeScene::touchUp(ofTouchEventArgs &touch){
-    //Switch Scenes
-//    if(button.isPressed()) {
-        if(mgr.getCurScene() < MNH_HOME_SCENE_TOTAL-1) {
-            mgr.setCurScene(mgr.getCurScene() + 1);
-        } else {
-            mnhSM->setCurScene(MNH_SCENE_RESEARCH);
-            mgr.setCurScene(0);
-
-        }
-//    }
-//    button.touchUp(touch);
+    
+   
+   
+    switch(mgr.getCurScene()) {
+        case MNH_HOME_SCENE_FIRST:
+             mgr.setCurScene(mgr.getCurScene() + 1);
+             break;
+        case MNH_HOME_SCENE_SECOND:
+             mnhSM->setCurScene(MNH_SCENE_RESEARCH);
+             break;
+            
+    }
+   
 }

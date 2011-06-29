@@ -9,6 +9,7 @@
 #pragma once
 #include "mnhBaseScene.h"
 #include "baseButton.h"
+#include "mnhBottomMenu.h"
 
 enum {
     MNH_HOME_SCENE_FIRST,
@@ -21,6 +22,7 @@ class homeScene : public mnhBaseScene {
 		void setup();
 		void update();
 		void draw();
+        void activate();
         
         void touchDown(ofTouchEventArgs &touch);
         void touchMoved(ofTouchEventArgs &touch);

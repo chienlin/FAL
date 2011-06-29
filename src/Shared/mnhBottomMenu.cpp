@@ -47,6 +47,9 @@ void mnhBottomMenu::setup() {
         buttons[i].setColor(bgOffColor, bgOnColor);
         disableBG();
     }
+    
+    touched = false;
+    
 }
 
 
@@ -144,12 +147,16 @@ void mnhBottomMenu::touchUp(ofTouchEventArgs &touch){
                 switch (i) {
                     case MNH_BTM_MENU_HOME:
                         mnhSM->setCurScene(MNH_SCENE_HOME);
+                        touched = true;
                         break;
                     case MNH_BTM_MENU_RESEARCH:
                         mnhSM->setCurScene(MNH_SCENE_RESEARCH);
+                        touched = true;
+                        cout<<"touch resource button"<<touched<<endl;
                         break;
                     case MNH_BTM_MENU_ACTIVITY:
                         mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
+                        touched = true;
                         break;
                     default:
                         break;

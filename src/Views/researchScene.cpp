@@ -25,7 +25,7 @@ void researchScene::setup() {
     hintP.loadImage("images/screens/hint.png");
 
     
-    //set up for buttons
+    //set up for resource page buttons
     caseI.loadImage("images/screens/research/case.png");
     infoI.loadImage("images/screens/research/info.png");
     hintI.loadImage("images/screens/research/hint.png");
@@ -37,8 +37,16 @@ void researchScene::setup() {
     caseB.setPos(ofGetWidth()/6-caseB.rect.width/2,MNH_GRID_CELL_SIZE*3);
     infoB.setPos(ofGetWidth()/6*3-infoB.rect.width/2,MNH_GRID_CELL_SIZE*3);
     hintB.setPos(ofGetWidth()/6*5-hintB.rect.width/2,MNH_GRID_CELL_SIZE*3);
+    
+    //set up for checked resource page buttons
+    checkmark.loadImage("images/screens/research/checkmark.png");
+    casechecked = false;  
+    infochecked = false;
+    hintchecked = false;
+    
+    
 
-    //set up for t buttons
+    //set up for 3D model buttons
     anteI.loadImage("images/screens/bone/ante.png");
     periI.loadImage("images/screens/bone/peri.png");
     postI.loadImage("images/screens/bone/post.png");
@@ -47,26 +55,36 @@ void researchScene::setup() {
     periB.setImage(&periI,&periI);
     postB.setImage(&postI,&postI);
     
-    anteB.setPos(ofGetWidth()/6-anteB.rect.width/2,450);
-    periB.setPos(ofGetWidth()/6*3-periB.rect.width/2,450);
-    postB.setPos(ofGetWidth()/6*5-postB.rect.width/2,450);
+    anteB.setPos(ofGetWidth()/6-anteB.rect.width/2,MNH_GRID_CELL_SIZE*3);
+    periB.setPos(ofGetWidth()/6*3-periB.rect.width/2,MNH_GRID_CELL_SIZE*3);
+    postB.setPos(ofGetWidth()/6*5-postB.rect.width/2,MNH_GRID_CELL_SIZE*3);
 
     
     
     //back to research button
     back.setSize(100, 50);
     back.setPos(ofGetWidth()/2 - back.rect.width/2,ofGetHeight()-back.rect.height);
-    back.setLabel("Back to Resources!", &mnhAssets->whitneySemiBold22);
-    //back to info
+    back.setLabel("Back to Resources", &mnhAssets->whitneySemiBold22);
+    
+    //back to find trauma
     backtoinfo.setSize(100, 50);
     backtoinfo.setPos(ofGetWidth()/2 - back.rect.width/2,ofGetHeight()-back.rect.height);
-    backtoinfo.setLabel("Back to Find the Trauma!", &mnhAssets->whitneySemiBold22);
+    backtoinfo.setLabel("Back to Find the Trauma", &mnhAssets->whitneySemiBold22);
 
     //start activity button
     start.setSize(100, 50);
     start.setPos(back.rect.width/2,back.rect.height);
-    start.setLabel("Start Activity!", &mnhAssets->whitneySemiBold22);
+    start.setLabel("Start Activity", &mnhAssets->whitneySemiBold22);
     
+    //back to continue activity
+    backtoact.setSize(100, 50);
+    backtoact.setPos(backtoact.rect.width/2,backtoact.rect.height);
+    backtoact.setLabel("back to Activity", &mnhAssets->whitneySemiBold22);
+
+    location_at_act = 0;
+    
+    
+    //double tap
     firstDoubleTap = false;
     isTouchDown = false;
     touchX = 0;
@@ -77,30 +95,14 @@ void researchScene::setup() {
 
 //------------------------------------------------------------------
 void researchScene::update() {
-    //Check if scene has been updated
-//    if(mgr.getCurSceneChanged()) {
-//        switch(mgr.getCurScene()) {
-//            case MNH_RESEARCH_SCENE_FIRST:
-//                cout << "Doing Setup Stuff for Scene One!" << endl;
-//                break;
-//            case MNH_RESEARCH_SCENE_SECOND:
-//                cout << "Doing Setup Stuff for Scene Two!" << endl;
-//                break;
-//            case MNH_RESEARCH_SCENE_THIRD:
-//                cout << "Doing Setup Stuff for Scene Three!" << endl;
-//                break;
-//        }
-//    }
-    
-    //if (!isTouchDown)
-        //boneModel->setRotation(1, 270 + ofGetElapsedTimef() * 30, 0, 1, 0); 
+
 }
 
 //------------------------------------------------------------------
 void researchScene::activate() {
-    
-    mgr.setCurScene(MNH_RESEARCH_SCENE_FIRST);
     init3DViewer(t);
+    mgr.setCurScene(MNH_RESEARCH_SCENE_FIRST);
+//    init3DViewer(t);
     cout << "Activate Research" << endl;
 }
 
@@ -115,6 +117,7 @@ void researchScene::deactivate() {
 //------------------------------------------------------------------
 void researchScene::draw() {
     
+   
     ofEnableAlphaBlending();
     drawGrid();    
        
@@ -122,18 +125,33 @@ void researchScene::draw() {
     switch(mgr.getCurScene()) {
         case MNH_RESEARCH_SCENE_FIRST:
             researchScreen.draw(0,0);
+            // for showing this page are already checked
+            if (casechecked) {
+                checkmark.draw(ofGetWidth()/6-caseB.rect.width/2-checkmark.width/2,MNH_GRID_CELL_SIZE*3);
+            }
+            if (infochecked) {
+                checkmark.draw(ofGetWidth()/6*3-infoB.rect.width/2-checkmark.width/2,MNH_GRID_CELL_SIZE*3);
+            }
+            if (hintchecked) {
+                cout<<"hi"<<endl;
+                checkmark.draw(ofGetWidth()/6*5-hintB.rect.width/2-checkmark.width/2,MNH_GRID_CELL_SIZE*3);
+            }
+            //
+            
             caseB.draw();
             infoB.draw();
             hintB.draw();
 
-            sceneName = "First Sub Scene!";
+            sceneName = "Resource page!";
             break;
             
         case MNH_RESEARCH_SCENE_SECOND:
             caseP.draw(0,0);
-            back.draw(0,ofGetHeight()-back.rect.height-50);
+            back.draw(ofGetWidth()-back.rect.width,0);
             start.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
-            sceneName = "Second Sub Scene!";
+//            backtoact.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
+
+            sceneName = "Case info page!";
             break;
         case MNH_RESEARCH_SCENE_THIRD:
             infoP.draw(0,0);
@@ -142,21 +160,26 @@ void researchScene::draw() {
             periB.draw();
             postB.draw();
             
-            back.draw(0,ofGetHeight()-back.rect.height-50);
+            back.draw(ofGetWidth()-back.rect.width,0);
             start.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
-            sceneName = "Third Sub Scene!";
+//            backtoact.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
+
+            sceneName = "Find the trauma";
             break;
             
         case MNH_RESEARCH_SCENE_FOURTH:
             hintP.draw(0,0);
-            back.draw(0,ofGetHeight()-back.rect.height-50);
+            back.draw(ofGetWidth()-back.rect.width,0);
             start.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
-            sceneName = "Third Sub Scene!";
+//            backtoact.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
+
+            sceneName = "Hint";
             break;
         case MNH_RESEARCH_SCENE_FIFTH:
-            backtoinfo.draw(0,ofGetHeight()-backtoinfo.rect.height-50);
-            start.draw(ofGetWidth()-start.rect.width,ofGetHeight()-start.rect.height-50);
-            sceneName = "Third Sub Scene!";
+            
+            backtoinfo.draw(ofGetWidth()-backtoinfo.rect.width,0);
+            
+            sceneName = "3D!";
             
             drawModel();
                         
@@ -243,6 +266,7 @@ void researchScene::touchDown(ofTouchEventArgs &touch){
         case MNH_RESEARCH_SCENE_SECOND:
             back.touchDown(touch);
             start.touchDown(touch);
+            backtoact.touchDown(touch);
             break;
         case MNH_RESEARCH_SCENE_THIRD:
             anteB.touchDown(touch);
@@ -250,11 +274,15 @@ void researchScene::touchDown(ofTouchEventArgs &touch){
             postB.touchDown(touch);
             back.touchDown(touch);
             start.touchDown(touch);
+            backtoact.touchDown(touch);
+
             break;
             
         case MNH_RESEARCH_SCENE_FOURTH:
             back.touchDown(touch);
             start.touchDown(touch);
+            backtoact.touchDown(touch);
+
             break;
         case MNH_RESEARCH_SCENE_FIFTH:
             backtoinfo.touchDown(touch);
@@ -284,17 +312,23 @@ void researchScene::touchMoved(ofTouchEventArgs &touch){
 
 //--------------------------------------------------------------
 void researchScene::touchUp(ofTouchEventArgs &touch){
+
     isTouchDown = false;
-    
+       
     switch(mgr.getCurScene()) {
         case MNH_RESEARCH_SCENE_FIRST:
             if (caseB.isPressed()) {
                 mgr.setCurScene(MNH_RESEARCH_SCENE_SECOND);
+                casechecked = true;
+                
             }else if(infoB.isPressed()){
                 mgr.setCurScene(MNH_RESEARCH_SCENE_THIRD);
+                infochecked = true;
+
                 
             }else if(hintB.isPressed()){
                 mgr.setCurScene(MNH_RESEARCH_SCENE_FOURTH);
+                hintchecked = true;
             }
             break;
             

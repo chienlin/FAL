@@ -11,6 +11,8 @@
 #include "mnhBaseScene.h"
 #include "ofx3DModelLoader.h"
 #include "baseButton.h"
+#include "mnhBottomMenu.h"
+#include "activityScene.h"
 
 enum {
     MNH_RESEARCH_SCENE_FIRST,
@@ -59,7 +61,7 @@ class researchScene : public mnhBaseScene {
         baseButton back;
         baseButton start;
         
-        //set up for t button
+        //set up for 3D button
         ofImage anteI;
         ofImage periI;
         ofImage postI;
@@ -67,12 +69,20 @@ class researchScene : public mnhBaseScene {
         baseButton anteB;
         baseButton periB;
         baseButton postB;
-        baseButton backtoinfo;        
+        baseButton backtoinfo;
+        baseButton backtoact;
+
         
         //set up for subscene
         ofImage caseP;
         ofImage infoP;
         ofImage hintP;
+    
+        //set up for check mark
+        ofImage checkmark;
+        bool casechecked;  
+        bool infochecked;
+        bool hintchecked;
                 
         //setup for 3dmodel 
         ofx3DModelLoader *boneModel;
@@ -87,6 +97,10 @@ class researchScene : public mnhBaseScene {
         
         void init3DViewer(traumaType trauma);
         void drawModel();
+    
+    
+        //try to track
+        int location_at_act;
     
         
 };
