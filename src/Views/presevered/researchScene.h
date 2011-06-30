@@ -38,8 +38,6 @@ class researchScene : public mnhBaseScene {
     
         void activate();
         void deactivate();
-       // bool notice();
-        bool getnotice(bool A);
     
         void touchDown(ofTouchEventArgs &touch);
         void touchMoved(ofTouchEventArgs &touch);
@@ -47,7 +45,6 @@ class researchScene : public mnhBaseScene {
         void touchDoubleTap(ofTouchEventArgs &touch);
     
     private:
-        bool reset;
         ofImage researchScreen;
         
         //set up for subButton

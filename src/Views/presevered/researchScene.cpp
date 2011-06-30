@@ -98,11 +98,6 @@ void researchScene::update() {
      
     if (!isTouchDown)
         boneModel->setRotation(1, 270 + ofGetElapsedTimef() * 30, 0, 1, 0); 
-    if (reset) {
-        start.setLabel("Resume Activity", &mnhAssets->whitneySemiBold22);
-
-    }
-
 }
 
 //------------------------------------------------------------------
@@ -395,11 +390,4 @@ void researchScene::touchDoubleTap(ofTouchEventArgs &touch){
     }
     
     firstDoubleTap = !firstDoubleTap;
-}
-//-------------------------------
-bool researchScene::getnotice(bool A){
-    if (A) {
-        reset = true;
-    }
-
 }
