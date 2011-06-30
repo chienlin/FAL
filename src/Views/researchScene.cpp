@@ -245,25 +245,9 @@ void researchScene::drawModel(){
         //draw in middle of the screen
         glTranslatef(modelXPos,modelYPos,0);
         //tumble according to mouse
-        //glRotatef(-touchY/2,1,0,0);
-        //glRotatef(touchX/2,0,1,0);
-        if (isTouchDown) {
-            currentModelRotationY += ofMap(touchY, 0, 768, 0, 360);
-            currentModelRotationX += ofMap(touchX, 0, 1024, 0, 360);
-        }
+        glRotatef(-touchY/2,1,0,0);
+        glRotatef(touchX/2,0,1,0);
         
-        if (currentModelRotationX > 360) {
-            currentModelRotationX -= 360;    
-        }
-            
-        
-        if (currentModelRotationY > 360)
-            currentModelRotationY -= 360;
-        
-        cout << "model rotation: " << currentModelRotationX << " , " << currentModelRotationY << endl;
-        boneModel->setRotation(1, -currentModelRotationY, 1, 0, 0);
-                
-        boneModel->setRotation(2, currentModelRotationX, 0, 1, 0); 
         glTranslatef(-modelXPos,-modelYPos,0);
         
         ofSetColor(254, 254, 254, 255);

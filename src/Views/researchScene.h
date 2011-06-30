@@ -92,7 +92,6 @@ class researchScene : public mnhBaseScene {
         ofxVec3f posCord;
         
         
-        
         float touchID;
         float touchX, touchY;
         float dTouchX, dTouchY;
@@ -108,15 +107,9 @@ class researchScene : public mnhBaseScene {
         void init3DViewer(traumaType trauma);
         void drawModel();
     
-    
         //try to track
         int location_at_act;
     
-        //model functions for rotation
-        void position(ofxVec3f p);
-        void lerpPosition( ofxVec3f p, float step);
-        void orbitAround(ofxVec3f target, ofxVec3f axis, float val);
-        void rotate(ofxVec3f axis, flaot val);
     
     
         
