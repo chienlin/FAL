@@ -55,15 +55,19 @@ void testApp::setup(){
 void testApp::update(){
     Tweenzor::update();
     if(mnhSM->getCurSceneChanged()) {
+        
         for(int i=0; i<MNH_TOTAL_SCENES; i++) {
             scenes[i]->deactivate();
         }
+        //research knows it from activity
+        scenes[1]->getnotice(scenes[2]->notice());
+       
         
         scenes[mnhSM->getCurScene()]->activate();
     }
     
 
-    
+//    if(scenes[2]->notice()) cout<<"reset = true"<<endl;
     
     scenes[mnhSM->getCurScene()]->update();
     

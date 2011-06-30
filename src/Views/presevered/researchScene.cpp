@@ -89,13 +89,6 @@ void researchScene::setup() {
     isTouchDown = false;
     touchX = 0;
     touchY = 0;
-    dTouchX = 0;
-    dTouchY = 0;
-    bTouchMove = false;
-    orbitSpeed = .2;
-    
-    //set origin position vector for model
-    
 }
 
 
@@ -103,10 +96,8 @@ void researchScene::setup() {
 //------------------------------------------------------------------
 void researchScene::update() {
      
-    if (reset) {
-        start.setLabel("Resume Activity", &mnhAssets->whitneySemiBold22);
-
-    }
+    if (!isTouchDown)
+        boneModel->setRotation(1, 270 + ofGetElapsedTimef() * 30, 0, 1, 0); 
 }
 
 //------------------------------------------------------------------
@@ -221,7 +212,7 @@ void researchScene::init3DViewer(traumaType trauma){
     string boneFileName;
     switch (trauma) {
         case MNH_FAL_ANTEMORTEM:
-            boneFileName = "3dmodels/Skull_321498_aka_843-reduced10k-annontated.3ds";
+            boneFileName = "3dmodels/Skull_321498_aka_843-reduced10k-tex.3ds";
             break;
         case MNH_FAL_PERIMORTEM:
             boneFileName = "3dmodels/Cranium_209434-reduced10k.3ds";
@@ -249,9 +240,8 @@ void researchScene::drawModel(){
         //draw in middle of the screen
         glTranslatef(modelXPos,modelYPos,0);
         //tumble according to mouse
-        glRotatef(-touchY/2,1,0,0);
-        glRotatef(touchX/2,0,1,0);
-        
+        glRotatef(-touchY,1,0,0);
+        glRotatef(touchX,0,1,0);
         glTranslatef(-modelXPos,-modelYPos,0);
         
         ofSetColor(254, 254, 254, 255);
@@ -400,11 +390,4 @@ void researchScene::touchDoubleTap(ofTouchEventArgs &touch){
     }
     
     firstDoubleTap = !firstDoubleTap;
-}
-//-------------------------------
-bool researchScene::getnotice(bool A){
-    if (A) {
-        reset = true;
-    }
-
 }
