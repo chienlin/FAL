@@ -10,6 +10,7 @@
 #include "ofMain.h"
 #include "mnhBaseScene.h"
 #include "baseButton.h"
+//#include "ofxMail.h"
 
 enum {
     MNH_ACTIVITY_SCENE_AC1,//activity1            #0
@@ -114,5 +115,7 @@ class activityScene : public mnhBaseScene {
         baseButton invite;
         baseButton startover;
     
+    
+//        ofxMail theMail;
     
 };
