@@ -96,6 +96,8 @@ void activityScene::setup() {
     
     inviteImg.loadImage("images/screens/activity/invite.png");
     invite.setImage(&inviteImg,&inviteImg);
+    
+    theMail.setup();
 
 }
 
@@ -183,7 +185,25 @@ void activityScene::update() {
     
         }
     }
-    
+    switch (theMail.getResult()) {
+        case 0:
+            break;
+        case 1:
+            printf("saved\n");
+            break;
+        case 2:
+            printf("sent\n");
+            break;
+        case -1:
+            printf("canceled\n");
+            break;
+        case -2:
+            printf("failed\n");
+            break;
+        default:
+            break;
+    }
+
     
     
 }
@@ -416,6 +436,7 @@ void activityScene::touchDown(ofTouchEventArgs &touch){
         case MNH_ACTIVITY_SCENE_LEVELUP:
             startover.touchDown(touch);
             invite.touchDown(touch);
+             theMail.show();
 
             
             break;
@@ -438,9 +459,9 @@ void activityScene::touchUp(ofTouchEventArgs &touch){
             //first activity    
         case MNH_ACTIVITY_SCENE_AC1:
             if (ac1b1.isPressed()) {
-                mgr.setCurScene(MNH_ACTIVITY_SCENE_AC1C1);
-            }else if(ac1b2.isPressed()){
                 mgr.setCurScene(MNH_ACTIVITY_SCENE_AC1W1);
+            }else if(ac1b2.isPressed()){
+                mgr.setCurScene(MNH_ACTIVITY_SCENE_AC1C1);
             }else if(ac1b3.isPressed()){
                 mgr.setCurScene(MNH_ACTIVITY_SCENE_AC1W2);
 
