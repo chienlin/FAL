@@ -9,10 +9,13 @@
 #pragma once
 #include "ofMain.h"
 #include "mnhBaseScene.h"
+#include "ofxVectorMath.h"
 #include "ofx3DModelLoader.h"
 #include "baseButton.h"
 #include "mnhBottomMenu.h"
 #include "activityScene.h"
+
+
 
 enum {
     MNH_RESEARCH_SCENE_FIRST,
@@ -86,12 +89,19 @@ class researchScene : public mnhBaseScene {
                 
         //setup for 3dmodel 
         ofx3DModelLoader *boneModel;
+        ofxVec3f posCord;
+        
+        
         
         float touchID;
         float touchX, touchY;
+        float dTouchX, dTouchY;
+        float orbitSpeed;
+    
         float modelXPos, modelYPos;
         
         bool firstDoubleTap, isTouchDown;
+        bool bTouchMove;
         
         traumaType t;
         
@@ -101,6 +111,13 @@ class researchScene : public mnhBaseScene {
     
         //try to track
         int location_at_act;
+    
+        //model functions for rotation
+        void position(ofxVec3f p);
+        void lerpPosition( ofxVec3f p, float step);
+        void orbitAround(ofxVec3f target, ofxVec3f axis, float val);
+        void rotate(ofxVec3f axis, flaot val);
+    
     
         
 };

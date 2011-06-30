@@ -15,6 +15,9 @@
 		49DC352013B931A000594487 /* model3DS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49DC351713B931A000594487 /* model3DS.cpp */; };
 		49DC352113B931A000594487 /* texture3DS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49DC351913B931A000594487 /* texture3DS.cpp */; };
 		49DC352213B931A000594487 /* ofx3dModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49DC351D13B931A000594487 /* ofx3dModelLoader.cpp */; };
+		49FB855413BBC993005DDE68 /* ofxMatrix3x3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FB854613BBC993005DDE68 /* ofxMatrix3x3.cpp */; };
+		49FB855513BBC993005DDE68 /* ofxMatrix4x4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FB854813BBC993005DDE68 /* ofxMatrix4x4.cpp */; };
+		49FB855613BBC993005DDE68 /* ofxQuaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FB854D13BBC993005DDE68 /* ofxQuaternion.cpp */; };
 		5326AEA810A23A0500278DE6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5326AEA710A23A0500278DE6 /* CoreLocation.framework */; };
 		53F323EB10A20EDB00E0DAE4 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F323EA10A20EDB00E0DAE4 /* OpenAL.framework */; };
 		5E25689710ED26CC00A9501C /* CppUnit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E25687010ED26CC00A9501C /* CppUnit.a */; };
@@ -103,6 +106,19 @@
 		49DC351C13B931A000594487 /* ofx3DBaseLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofx3DBaseLoader.h; sourceTree = "<group>"; };
 		49DC351D13B931A000594487 /* ofx3dModelLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofx3dModelLoader.cpp; sourceTree = "<group>"; };
 		49DC351E13B931A000594487 /* ofx3DModelLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofx3DModelLoader.h; sourceTree = "<group>"; };
+		49FB854613BBC993005DDE68 /* ofxMatrix3x3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxMatrix3x3.cpp; sourceTree = "<group>"; };
+		49FB854713BBC993005DDE68 /* ofxMatrix3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxMatrix3x3.h; sourceTree = "<group>"; };
+		49FB854813BBC993005DDE68 /* ofxMatrix4x4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxMatrix4x4.cpp; sourceTree = "<group>"; };
+		49FB854913BBC993005DDE68 /* ofxMatrix4x4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxMatrix4x4.h; sourceTree = "<group>"; };
+		49FB854A13BBC993005DDE68 /* ofxPoint2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxPoint2f.h; sourceTree = "<group>"; };
+		49FB854B13BBC993005DDE68 /* ofxPoint3f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxPoint3f.h; sourceTree = "<group>"; };
+		49FB854C13BBC993005DDE68 /* ofxPoint4f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxPoint4f.h; sourceTree = "<group>"; };
+		49FB854D13BBC993005DDE68 /* ofxQuaternion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxQuaternion.cpp; sourceTree = "<group>"; };
+		49FB854E13BBC993005DDE68 /* ofxQuaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxQuaternion.h; sourceTree = "<group>"; };
+		49FB854F13BBC993005DDE68 /* ofxVec2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxVec2f.h; sourceTree = "<group>"; };
+		49FB855013BBC993005DDE68 /* ofxVec3f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxVec3f.h; sourceTree = "<group>"; };
+		49FB855113BBC993005DDE68 /* ofxVec4f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxVec4f.h; sourceTree = "<group>"; };
+		49FB855213BBC993005DDE68 /* ofxVectorMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxVectorMath.h; sourceTree = "<group>"; };
 		5326AEA710A23A0500278DE6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		53F323EA10A20EDB00E0DAE4 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		5E25687010ED26CC00A9501C /* CppUnit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = CppUnit.a; path = ../../../libs/poco/lib/iphone/CppUnit.a; sourceTree = SOURCE_ROOT; };
@@ -364,6 +380,35 @@
 			path = 3DS;
 			sourceTree = "<group>";
 		};
+		49FB854313BBC993005DDE68 /* ofxVectorMath */ = {
+			isa = PBXGroup;
+			children = (
+				49FB854513BBC993005DDE68 /* src */,
+			);
+			name = ofxVectorMath;
+			path = ../../../addons/ofxVectorMath;
+			sourceTree = "<group>";
+		};
+		49FB854513BBC993005DDE68 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				49FB854613BBC993005DDE68 /* ofxMatrix3x3.cpp */,
+				49FB854713BBC993005DDE68 /* ofxMatrix3x3.h */,
+				49FB854813BBC993005DDE68 /* ofxMatrix4x4.cpp */,
+				49FB854913BBC993005DDE68 /* ofxMatrix4x4.h */,
+				49FB854A13BBC993005DDE68 /* ofxPoint2f.h */,
+				49FB854B13BBC993005DDE68 /* ofxPoint3f.h */,
+				49FB854C13BBC993005DDE68 /* ofxPoint4f.h */,
+				49FB854D13BBC993005DDE68 /* ofxQuaternion.cpp */,
+				49FB854E13BBC993005DDE68 /* ofxQuaternion.h */,
+				49FB854F13BBC993005DDE68 /* ofxVec2f.h */,
+				49FB855013BBC993005DDE68 /* ofxVec3f.h */,
+				49FB855113BBC993005DDE68 /* ofxVec4f.h */,
+				49FB855213BBC993005DDE68 /* ofxVectorMath.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		5E25686A10ED26BE00A9501C /* poco */ = {
 			isa = PBXGroup;
 			children = (
@@ -582,6 +627,7 @@
 		BB16F26B0F2B646B00518274 /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				49FB854313BBC993005DDE68 /* ofxVectorMath */,
 				49221F0113BA37EE005AF00C /* ofxMail */,
 				49DC351313B931A000594487 /* ofx3DModelLoader */,
 				AA9B958C13B4DB5A00550F6D /* ofxXmlSettings */,
@@ -970,6 +1016,9 @@
 				49DC352113B931A000594487 /* texture3DS.cpp in Sources */,
 				49DC352213B931A000594487 /* ofx3dModelLoader.cpp in Sources */,
 				49221F0513BA384D005AF00C /* ofxMail.mm in Sources */,
+				49FB855413BBC993005DDE68 /* ofxMatrix3x3.cpp in Sources */,
+				49FB855513BBC993005DDE68 /* ofxMatrix4x4.cpp in Sources */,
+				49FB855613BBC993005DDE68 /* ofxQuaternion.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
