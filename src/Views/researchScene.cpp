@@ -23,6 +23,10 @@ void researchScene::setup() {
     caseP.loadImage("images/screens/case.png");
     infoP.loadImage("images/screens/info.png");
     hintP.loadImage("images/screens/hint.png");
+    
+    anteP.loadImage("images/screens/ante.png");
+    periP.loadImage("images/screens/peri.png");
+    postP.loadImage("images/screens/post.png");
 
     
     //set up for resource page buttons
@@ -94,8 +98,66 @@ void researchScene::setup() {
     bTouchMove = false;
     orbitSpeed = .2;
     
-    //set origin position vector for model
+    //3d swap
+    //back to research button
+    swap.setSize(100, 100);
+    swap.setPos(0,ofGetHeight());
+    swap.setLabel("See the other models", &mnhAssets->whitneySemiBold22);
+    a = false;
     
+}
+
+//--------------------------------------------------------------
+void researchScene::init3DViewer(traumaType trauma){
+    modelXPos = 720;
+    modelYPos = 395;
+    
+    //set gl settings
+    //glEnable(GL_DEPTH_TEST);
+    glShadeModel(GL_SMOOTH);
+    glEnable(GL_COLOR_MATERIAL);
+    
+    //init lighting
+    glLightfv (GL_LIGHT0, GL_POSITION, lightOnePosition);
+    glLightfv (GL_LIGHT0, GL_DIFFUSE, lightOneColor);
+    glEnable (GL_LIGHT0);
+    glLightfv (GL_LIGHT1, GL_POSITION, lightTwoPosition);
+    glLightfv (GL_LIGHT1, GL_DIFFUSE, lightTwoColor);
+    glEnable (GL_LIGHT1);
+    
+    //load model
+    string boneFileName;
+    switch (trauma) {
+        case MNH_FAL_ANTEMORTEM1:
+            boneFileName = "3dmodels/Skull_321498_aka_843-reduced10k-tex-annotated.3ds";
+            bonescale = 3;
+            break;
+        case MNH_FAL_ANTEMORTEM2:
+            boneFileName = "3dmodels/Femur_169_reduced20k_annotated.3ds";
+            bonescale = 2;
+            break;
+        case MNH_FAL_PERIMORTEM1:
+            boneFileName = "3dmodels/Cranium_209434-reduced10k_annotated.3ds";
+             bonescale = 3;
+            break;
+        case MNH_FAL_PERIMORTEM2:
+            boneFileName = "3dmodels/Femur_170R_Knee_Final_reduced25k_annotated.3ds";
+            break;
+        default:
+            break;
+    }
+
+    cout << "Loading 3D Model Viewer" << endl;
+    boneModel = new ofx3DModelLoader();
+    boneModel->loadModel(boneFileName, bonescale);
+    model3DS* model = (model3DS*)boneModel->model;
+    
+    //set model to right-side-up
+    boneModel->setRotation(0, 180.0, 0, 0, 1);
+    //set initial scale
+    boneModel->setScale(0.75, 0.75, 0.75);
+    //set initial pos
+    boneModel->setPosition(modelXPos, modelYPos, 0);
 }
 
 
@@ -107,11 +169,16 @@ void researchScene::update() {
         start.setLabel("Resume Activity", &mnhAssets->whitneySemiBold22);
 
     }
+/* 
+    if (mgr.getCurSceneChanged()) {
+        delete boneModel;
+        boneModel = NULL;
+    }
+ */   
 }
 
 //------------------------------------------------------------------
 void researchScene::activate() {
-    init3DViewer(t);
     mgr.setCurScene(MNH_RESEARCH_SCENE_FIRST);
     cout << "Activate Research" << endl;
 }
@@ -186,21 +253,26 @@ void researchScene::draw() {
             sceneName = "Hint";
             break;
         case MNH_RESEARCH_SCENE_FIFTH:
+            anteP.draw(0,0);
+            swap.draw();
             backtoinfo.draw(ofGetWidth()-backtoinfo.rect.width,0);
             sceneName = "3D for ante";
             drawModel();
                         
             break;
         case MNH_RESEARCH_SCENE_SIX:
+            periP.draw(0,0);
+            swap.draw();
             backtoinfo.draw(ofGetWidth()-backtoinfo.rect.width,0);
             sceneName = "3D for peri";
             drawModel();
             
             break;
         case MNH_RESEARCH_SCENE_SEVEN:
+            postP.draw(0,0);
             backtoinfo.draw(ofGetWidth()-backtoinfo.rect.width,0);
             sceneName = "3D for post";
-            drawModel();
+            
             
            
 
@@ -209,49 +281,6 @@ void researchScene::draw() {
 
     }
     ofDisableAlphaBlending();
-}
-
-//--------------------------------------------------------------
-void researchScene::init3DViewer(traumaType trauma){
-    modelXPos = 720;
-    modelYPos = 395;
-    
-    //set gl settings
-    //glEnable(GL_DEPTH_TEST);
-    glShadeModel(GL_SMOOTH);
-    glEnable(GL_COLOR_MATERIAL);
-    
-    //init lighting
-    glLightfv (GL_LIGHT0, GL_POSITION, lightOnePosition);
-    glLightfv (GL_LIGHT0, GL_DIFFUSE, lightOneColor);
-    glEnable (GL_LIGHT0);
-    glLightfv (GL_LIGHT1, GL_POSITION, lightTwoPosition);
-    glLightfv (GL_LIGHT1, GL_DIFFUSE, lightTwoColor);
-    glEnable (GL_LIGHT1);
-    
-    //load model
-    string boneFileName;
-    switch (trauma) {
-        case MNH_FAL_ANTEMORTEM:
-            boneFileName = "3dmodels/Skull_321498_aka_843-reduced10k-annontated.3ds";
-            break;
-        case MNH_FAL_PERIMORTEM:
-            boneFileName = "3dmodels/Cranium_209434-reduced10k.3ds";
-            break;
-        default:
-            break;
-    }
-    cout << "Loading 3D Model Viewer" << endl;
-    boneModel = new ofx3DModelLoader();
-    boneModel->loadModel(boneFileName, 3);
-    model3DS* model = (model3DS*)boneModel->model;
-    
-    //set model to right-side-up
-    boneModel->setRotation(0, 180.0, 0, 0, 1);
-    //set initial scale
-    boneModel->setScale(0.75, 0.75, 0.75);
-    //set initial pos
-    boneModel->setPosition(modelXPos, modelYPos, 0);
 }
 
 //--------------------------------------------------------------
@@ -306,11 +335,13 @@ void researchScene::touchDown(ofTouchEventArgs &touch){
 
             break;
         case MNH_RESEARCH_SCENE_FIFTH:
+            swap.touchDown(touch);
             backtoinfo.touchDown(touch);
             start.touchDown(touch);
 
             break;
         case MNH_RESEARCH_SCENE_SIX:
+            swap.touchDown(touch);
             backtoinfo.touchDown(touch);
             start.touchDown(touch);
             
@@ -374,19 +405,20 @@ void researchScene::touchUp(ofTouchEventArgs &touch){
         case MNH_RESEARCH_SCENE_THIRD:
             if (anteB.isPressed())
             {
-                t = MNH_FAL_ANTEMORTEM;
+                init3DViewer(MNH_FAL_ANTEMORTEM1); 
                 mgr.setCurScene(MNH_RESEARCH_SCENE_FIFTH);
-                cout<<"anteB";
+              
+
             }else if (periB.isPressed())
             {
                  mgr.setCurScene(MNH_RESEARCH_SCENE_SIX);
-                t = MNH_FAL_PERIMORTEM;
-                cout<<"periB";
+                init3DViewer(MNH_FAL_PERIMORTEM1);
+
             }else if(postB.isPressed())
             {
                  mgr.setCurScene(MNH_RESEARCH_SCENE_SEVEN);
-                t = MNH_FAL_POSTMORTEM;
-                cout<<"postB";
+     
+
             }
             if (back.isPressed()) {
                 mgr.setCurScene(MNH_RESEARCH_SCENE_FIRST);
@@ -403,20 +435,55 @@ void researchScene::touchUp(ofTouchEventArgs &touch){
             }
             break;
         case MNH_RESEARCH_SCENE_FIFTH:
+            
+            if (swap.isPressed()) {
+                delete boneModel;
+                boneModel = NULL;
+                a =! a;
+                if(a){
+                    init3DViewer(MNH_FAL_ANTEMORTEM2);
+                }else{
+                    init3DViewer(MNH_FAL_ANTEMORTEM1);
+                }
+            }
+                        
+            
             if (backtoinfo.isPressed()) {
+                delete boneModel;
+                boneModel = NULL;
                 mgr.setCurScene(MNH_RESEARCH_SCENE_THIRD);
             }else if(start.isPressed()){
+                delete boneModel;
+                boneModel = NULL;
                 mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
             }
+            
             
             break;
         case MNH_RESEARCH_SCENE_SIX:
-            if (backtoinfo.isPressed()) {
-                mgr.setCurScene(MNH_RESEARCH_SCENE_THIRD);
-            }else if(start.isPressed()){
-                mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
+           
+            if (swap.isPressed()) {
+                 a =! a;
+                delete boneModel;
+                boneModel = NULL;
+
+                if(a){
+                    init3DViewer(MNH_FAL_PERIMORTEM2);
+                }else{
+                    init3DViewer(MNH_FAL_PERIMORTEM1);
+                }
             }
             
+            if (backtoinfo.isPressed()) {
+                delete boneModel;
+                boneModel = NULL;
+                mgr.setCurScene(MNH_RESEARCH_SCENE_THIRD);
+            }else if(start.isPressed()){
+                delete boneModel;
+                boneModel = NULL;
+                mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
+            }
+         
             break;
         case MNH_RESEARCH_SCENE_SEVEN:
             if (backtoinfo.isPressed()) {
@@ -424,7 +491,7 @@ void researchScene::touchUp(ofTouchEventArgs &touch){
             }else if(start.isPressed()){
                 mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
             }
-            
+         
             break;
 
 

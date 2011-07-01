@@ -9,15 +9,10 @@
 /* Begin PBXBuildFile section */
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		49221F0013BA37C8005AF00C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49221EFF13BA37C8005AF00C /* MessageUI.framework */; };
-		49221F0513BA384D005AF00C /* ofxMail.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49221F0413BA384D005AF00C /* ofxMail.mm */; };
 		49DC351F13B931A000594487 /* model3DS.bak in Resources */ = {isa = PBXBuildFile; fileRef = 49DC351613B931A000594487 /* model3DS.bak */; };
 		49DC352013B931A000594487 /* model3DS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49DC351713B931A000594487 /* model3DS.cpp */; };
 		49DC352113B931A000594487 /* texture3DS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49DC351913B931A000594487 /* texture3DS.cpp */; };
 		49DC352213B931A000594487 /* ofx3dModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49DC351D13B931A000594487 /* ofx3dModelLoader.cpp */; };
-		49FB855413BBC993005DDE68 /* ofxMatrix3x3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FB854613BBC993005DDE68 /* ofxMatrix3x3.cpp */; };
-		49FB855513BBC993005DDE68 /* ofxMatrix4x4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FB854813BBC993005DDE68 /* ofxMatrix4x4.cpp */; };
-		49FB855613BBC993005DDE68 /* ofxQuaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49FB854D13BBC993005DDE68 /* ofxQuaternion.cpp */; };
 		5326AEA810A23A0500278DE6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5326AEA710A23A0500278DE6 /* CoreLocation.framework */; };
 		53F323EB10A20EDB00E0DAE4 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F323EA10A20EDB00E0DAE4 /* OpenAL.framework */; };
 		5E25689710ED26CC00A9501C /* CppUnit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E25687010ED26CC00A9501C /* CppUnit.a */; };

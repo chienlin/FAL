@@ -29,8 +29,10 @@ enum {
 };
 
 enum traumaType {
-    MNH_FAL_ANTEMORTEM,
-    MNH_FAL_PERIMORTEM,
+    MNH_FAL_ANTEMORTEM1,
+    MNH_FAL_ANTEMORTEM2,
+    MNH_FAL_PERIMORTEM1,
+    MNH_FAL_PERIMORTEM2,
     MNH_FAL_POSTMORTEM
 };
 
@@ -86,6 +88,10 @@ class researchScene : public mnhBaseScene {
         ofImage infoP;
         ofImage hintP;
     
+        ofImage anteP;
+        ofImage periP;
+        ofImage postP;
+    
         //set up for check mark
 //        ofImage checkmark;
 //        bool casechecked;  
@@ -101,16 +107,16 @@ class researchScene : public mnhBaseScene {
         float touchX, touchY;
         float dTouchX, dTouchY;
         float orbitSpeed;
-    
         float modelXPos, modelYPos;
-        
         bool firstDoubleTap, isTouchDown;
         bool bTouchMove;
-        
-        traumaType t;
-        
         void init3DViewer(traumaType trauma);
         void drawModel();
+        int bonescale;
+        baseButton swap;
+        bool a;
+       
+      
     
         //try to track
         int location_at_act;

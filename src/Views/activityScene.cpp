@@ -341,7 +341,7 @@ void activityScene::draw() {
         case MNH_ACTIVITY_SCENE_LEVELUP:
             levelup.draw(0,0);
             startover.draw(ofGetWidth()/2+startover.rect.width/2+10,MNH_GRID_CELL_SIZE*2.5);
-           invite.draw(MNH_GRID_CELL_SIZE*2,MNH_GRID_CELL_SIZE*2.5);
+           invite.draw(MNH_GRID_CELL_SIZE,MNH_GRID_CELL_SIZE*2.5);
 
             break;
     }
