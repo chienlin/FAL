@@ -92,12 +92,6 @@ class researchScene : public mnhBaseScene {
         ofImage periP;
         ofImage postP;
     
-        //set up for check mark
-//        ofImage checkmark;
-//        bool casechecked;  
-//        bool infochecked;
-//        bool hintchecked;
-                
         //setup for 3dmodel 
         ofx3DModelLoader *boneModel;
         ofxVec3f posCord;
@@ -105,23 +99,31 @@ class researchScene : public mnhBaseScene {
         
         float touchID;
         float touchX, touchY;
-        float dTouchX, dTouchY;
-        float orbitSpeed;
         float modelXPos, modelYPos;
+        float modelSpaceWidth;
+        float theta;
+        float sphereRadius;
+        float stopMomentum;
+        
         bool firstDoubleTap, isTouchDown;
         bool bTouchMove;
-        void init3DViewer(traumaType trauma);
-        void drawModel();
-        int bonescale;
-        baseButton swap;
+        bool bFirstRun;
         bool a;
-       
-      
     
+        int bonescale;
         //try to track
         int location_at_act;
-    
-    
-    
+
+        baseButton swap;
+
+        ofxVec3f prevSpherePt, currSpherePt;
+        ofxVec3f axis;
+        ofxVec3f firstPt;
+        GLfloat modelMatrix[16];
+        
+        ofxVec3f screenToSphere(ofxVec2f p);
+        void matrixCapture();
+        void init3DViewer(traumaType trauma);
+        void drawModel();
         
 };

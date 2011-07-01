@@ -11,8 +11,11 @@
 GLfloat lightOnePosition[] = {80.0, -1540, 100.0, 0.0};
 GLfloat lightOneColor[] = {0.82, 0.88, 0.99, 1.0};
 
-GLfloat lightTwoPosition[] = {-80.0, 1540, 100.0, 0.0};
+GLfloat lightTwoPosition[] = {-80.0, 2540, 100.0, 0.0};
 GLfloat lightTwoColor[] = {0.99, 0.74, 0.32, 1.0};
+
+float epsilonTransform = 1e-7;
+
 
 //------------------------------------------------------------------
 void researchScene::setup() {
@@ -87,16 +90,19 @@ void researchScene::setup() {
 
     location_at_act = 0;
     
-    
     //double tap
     firstDoubleTap = false;
     isTouchDown = false;
+    bFirstRun = false;
+    bTouchMove = false;
     touchX = 0;
     touchY = 0;
-    dTouchX = 0;
-    dTouchY = 0;
-    bTouchMove = false;
-    orbitSpeed = .2;
+    stopMomentum = 0.83;
+    modelSpaceWidth = 544; //black sq from illustrator where model sits
+    prevSpherePt.set(0,0,0);
+    currSpherePt.set(0,0,0);
+    sphereRadius = modelSpaceWidth/2;
+
     
     //3d swap
     //back to research button
@@ -121,9 +127,11 @@ void researchScene::init3DViewer(traumaType trauma){
     glLightfv (GL_LIGHT0, GL_POSITION, lightOnePosition);
     glLightfv (GL_LIGHT0, GL_DIFFUSE, lightOneColor);
     glEnable (GL_LIGHT0);
+    
     glLightfv (GL_LIGHT1, GL_POSITION, lightTwoPosition);
     glLightfv (GL_LIGHT1, GL_DIFFUSE, lightTwoColor);
     glEnable (GL_LIGHT1);
+    
     
     //load model
     string boneFileName;
@@ -150,7 +158,6 @@ void researchScene::init3DViewer(traumaType trauma){
     cout << "Loading 3D Model Viewer" << endl;
     boneModel = new ofx3DModelLoader();
     boneModel->loadModel(boneFileName, bonescale);
-    model3DS* model = (model3DS*)boneModel->model;
     
     //set model to right-side-up
     boneModel->setRotation(0, 180.0, 0, 0, 1);
@@ -167,8 +174,11 @@ void researchScene::update() {
      
     if (reset) {
         start.setLabel("Resume Activity", &mnhAssets->whitneySemiBold22);
-
     }
+    
+    theta *= stopMomentum;
+    if(theta < epsilonTransform) theta = 0; // stop theta from becoming ridiculously small
+    
 /* 
     if (mgr.getCurSceneChanged()) {
         delete boneModel;
@@ -188,6 +198,7 @@ void researchScene::deactivate() {
     cout << "Deactivate Research" << endl;
     delete boneModel;
     boneModel = NULL;
+    bFirstRun = false;
 }
 
 
@@ -272,11 +283,7 @@ void researchScene::draw() {
             postP.draw(0,0);
             backtoinfo.draw(ofGetWidth()-backtoinfo.rect.width,0);
             sceneName = "3D for post";
-            
-            
-           
-
-            
+             
             break;
 
     }
@@ -287,15 +294,24 @@ void researchScene::draw() {
 void researchScene::drawModel(){
     glPushMatrix();
         glEnable (GL_LIGHTING);
+        
+        if(!bFirstRun) {
+            matrixCapture();
+            bFirstRun = true;;
+        }
+    
+        glLoadMatrixf(modelMatrix);
+            
         //draw in middle of the screen
         glTranslatef(modelXPos,modelYPos,0);
-        //tumble according to mouse
-        glRotatef(-touchY/2,1,0,0);
-        glRotatef(touchX/2,0,1,0);
-        
+        //rotate model acording to our arcball rotation
+        glRotatef(-theta, axis.x, axis.y, axis.z);
         glTranslatef(-modelXPos,-modelYPos,0);
         
-        ofSetColor(254, 254, 254, 255);
+        //save maxtrix transform
+        matrixCapture();
+    
+        ofSetColor(255, 254, 254, 255);
         boneModel->draw();
         glDisable(GL_LIGHTING);
     glPopMatrix();
@@ -354,6 +370,7 @@ void researchScene::touchDown(ofTouchEventArgs &touch){
     }
     
     isTouchDown = true;
+    prevSpherePt = screenToSphere(ofxVec2f(touch.x, touch.y));
 }
 
 
@@ -367,8 +384,26 @@ void researchScene::touchMoved(ofTouchEventArgs &touch){
     backtoinfo.touchMoved(touch);
     start.touchDown(touch);
     
-    touchX = touch.x;
-    touchY = touch.y;
+    float x = touch.x;
+    float y = touch.y;
+    
+    currSpherePt = screenToSphere(ofxVec2f(x, y));
+    
+    if(currSpherePt == prevSpherePt) return;
+    
+    axis = currSpherePt.crossed(prevSpherePt);
+    axis.normalize();
+    
+    currSpherePt.normalize();
+    prevSpherePt.normalize();
+    
+    theta = acos(currSpherePt.dot(prevSpherePt));
+    theta *= RAD_TO_DEG;
+    
+    prevSpherePt = currSpherePt;
+    
+    touchX = x;
+    touchY = y;
 }
 
 
@@ -466,6 +501,7 @@ void researchScene::touchUp(ofTouchEventArgs &touch){
                  a =! a;
                 delete boneModel;
                 boneModel = NULL;
+                bFirstRun = false;
 
                 if(a){
                     init3DViewer(MNH_FAL_PERIMORTEM2);
@@ -477,10 +513,13 @@ void researchScene::touchUp(ofTouchEventArgs &touch){
             if (backtoinfo.isPressed()) {
                 delete boneModel;
                 boneModel = NULL;
+                bFirstRun = false;
+                
                 mgr.setCurScene(MNH_RESEARCH_SCENE_THIRD);
             }else if(start.isPressed()){
                 delete boneModel;
                 boneModel = NULL;
+                bFirstRun = false;
                 mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
             }
          
@@ -515,5 +554,27 @@ bool researchScene::getnotice(bool A){
     if (A) {
         reset = true;
     }
-
 }
+
+//--------------------------------------------------------------
+ofxVec3f researchScene::screenToSphere(ofxVec2f p){
+    //http://viewport3d.com/trackball.htm
+    ofxVec3f sphereCenter = ofxVec3f(modelXPos, modelYPos);
+
+    p = p - sphereCenter;
+    
+    float val = sphereRadius*sphereRadius - p.x*p.x - p.y*p.y;
+    if (val < 0) 
+        val *= -1;
+    
+    p.z = sqrt(val);
+
+    return p;
+}
+
+//--------------------------------------------------------------
+void researchScene::matrixCapture() {
+    //glGetDoublev( GL_MODELVIEW_MATRIX, modelMatrix );
+    glGetFloatv(GL_MODELVIEW_MATRIX, modelMatrix );
+}
+
