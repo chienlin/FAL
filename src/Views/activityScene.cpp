@@ -340,8 +340,8 @@ void activityScene::draw() {
             
         case MNH_ACTIVITY_SCENE_LEVELUP:
             levelup.draw(0,0);
-            startover.draw(ofGetWidth()/2+startover.rect.width/2,MNH_GRID_CELL_SIZE*2.5);
-           invite.draw(ofGetWidth()/2-invite.rect.width*3/2,MNH_GRID_CELL_SIZE*2.5);
+            startover.draw(ofGetWidth()/2+startover.rect.width/2+10,MNH_GRID_CELL_SIZE*2.5);
+           invite.draw(MNH_GRID_CELL_SIZE*2,MNH_GRID_CELL_SIZE*2.5);
 
             break;
     }
@@ -436,7 +436,7 @@ void activityScene::touchDown(ofTouchEventArgs &touch){
         case MNH_ACTIVITY_SCENE_LEVELUP:
             startover.touchDown(touch);
             invite.touchDown(touch);
-             theMail.show();
+            
 
             
             break;
@@ -480,7 +480,7 @@ void activityScene::touchUp(ofTouchEventArgs &touch){
            
             if (back.isPressed()) {
                 mgr.setCurScene(MNH_ACTIVITY_SCENE_AC1);
-            }else{
+            }else if(next.isPressed()){
                 mgr.setCurScene(MNH_ACTIVITY_SCENE_AC2);
             }
             
@@ -514,9 +514,9 @@ void activityScene::touchUp(ofTouchEventArgs &touch){
             //second activity
         case MNH_ACTIVITY_SCENE_AC2:
             if (ac2b1.isPressed()) {
-                mgr.setCurScene(MNH_ACTIVITY_SCENE_AC2W1);
-            }else if(ac2b2.isPressed()){
                 mgr.setCurScene(MNH_ACTIVITY_SCENE_AC2C1);
+            }else if(ac2b2.isPressed()){
+                mgr.setCurScene(MNH_ACTIVITY_SCENE_AC2W1);
             }else if(ac2b3.isPressed()){
                 mgr.setCurScene(MNH_ACTIVITY_SCENE_AC2W2);
                 
@@ -532,7 +532,7 @@ void activityScene::touchUp(ofTouchEventArgs &touch){
         case MNH_ACTIVITY_SCENE_AC2C1:
             if (back.isPressed()) {
                 mgr.setCurScene(MNH_ACTIVITY_SCENE_AC2);
-            }else{
+            }else if(next.isPressed()){
                 mgr.setCurScene(MNH_ACTIVITY_SCENE_AC3);
             }
 
@@ -598,6 +598,10 @@ void activityScene::touchUp(ofTouchEventArgs &touch){
             if (startover.isPressed()) {
                 mnhSM->setCurScene(MNH_SCENE_HOME);
                 reset = 0;
+            }else if(invite.isPressed()){
+             
+                theMail.show();
+            
             }
 
             break;

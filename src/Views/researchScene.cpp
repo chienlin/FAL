@@ -69,7 +69,7 @@ void researchScene::setup() {
     //back to find trauma
     backtoinfo.setSize(100, 50);
     backtoinfo.setPos(ofGetWidth()/2 - back.rect.width/2,ofGetHeight()-back.rect.height);
-    backtoinfo.setLabel("Back to Find the Trauma", &mnhAssets->whitneySemiBold22);
+    backtoinfo.setLabel("Back to Time of Trauma", &mnhAssets->whitneySemiBold22);
 
     //start activity button
     start.setSize(100, 50);
@@ -109,7 +109,6 @@ void researchScene::update() {
 void researchScene::activate() {
     init3DViewer(t);
     mgr.setCurScene(MNH_RESEARCH_SCENE_FIRST);
-//    init3DViewer(t);
     cout << "Activate Research" << endl;
 }
 
@@ -183,14 +182,27 @@ void researchScene::draw() {
             sceneName = "Hint";
             break;
         case MNH_RESEARCH_SCENE_FIFTH:
-            
             backtoinfo.draw(ofGetWidth()-backtoinfo.rect.width,0);
-            
-            sceneName = "3D!";
-            
+            sceneName = "3D for ante";
             drawModel();
                         
             break;
+        case MNH_RESEARCH_SCENE_SIX:
+            backtoinfo.draw(ofGetWidth()-backtoinfo.rect.width,0);
+            sceneName = "3D for peri";
+            drawModel();
+            
+            break;
+        case MNH_RESEARCH_SCENE_SEVEN:
+            backtoinfo.draw(ofGetWidth()-backtoinfo.rect.width,0);
+            sceneName = "3D for post";
+            drawModel();
+            
+           
+
+            
+            break;
+
     }
     ofDisableAlphaBlending();
 }
@@ -293,6 +305,16 @@ void researchScene::touchDown(ofTouchEventArgs &touch){
             start.touchDown(touch);
 
             break;
+        case MNH_RESEARCH_SCENE_SIX:
+            backtoinfo.touchDown(touch);
+            start.touchDown(touch);
+            
+            break;
+        case MNH_RESEARCH_SCENE_SEVEN:
+            backtoinfo.touchDown(touch);
+            start.touchDown(touch);
+            
+            break;
     }
     
     isTouchDown = true;
@@ -352,10 +374,12 @@ void researchScene::touchUp(ofTouchEventArgs &touch){
                 cout<<"anteB";
             }else if (periB.isPressed())
             {
-                 t = MNH_FAL_PERIMORTEM;
+                 mgr.setCurScene(MNH_RESEARCH_SCENE_SIX);
+                t = MNH_FAL_PERIMORTEM;
                 cout<<"periB";
             }else if(postB.isPressed())
             {
+                 mgr.setCurScene(MNH_RESEARCH_SCENE_SEVEN);
                 t = MNH_FAL_POSTMORTEM;
                 cout<<"postB";
             }
@@ -381,6 +405,24 @@ void researchScene::touchUp(ofTouchEventArgs &touch){
             }
             
             break;
+        case MNH_RESEARCH_SCENE_SIX:
+            if (backtoinfo.isPressed()) {
+                mgr.setCurScene(MNH_RESEARCH_SCENE_THIRD);
+            }else if(start.isPressed()){
+                mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
+            }
+            
+            break;
+        case MNH_RESEARCH_SCENE_SEVEN:
+            if (backtoinfo.isPressed()) {
+                mgr.setCurScene(MNH_RESEARCH_SCENE_THIRD);
+            }else if(start.isPressed()){
+                mnhSM->setCurScene(MNH_SCENE_ACTIVITY);
+            }
+            
+            break;
+
+
     }
 }
 
