@@ -96,12 +96,13 @@ void ofxMail::show()
         [[mailVC navigationBar] setTintColor:[UIColor blackColor]];
         mailVC.mailComposeDelegate = mailComposer;
         
-        [mailVC setSubject: @"My subject"];
+        [mailVC setSubject: @"Forensic Anthropology Mystery"];
         
         // Fill out the email body text
-        NSString *pageLink = @"http://mylink.com";
-        NSString *iTunesLink = @"http://iTunes.com/mylink";
-        NSString *emailBody = [NSString stringWithFormat: @"Sent from <a href = '%@'>My app</a> on iPhone. <a href = '%@'>Download</a> yours from AppStore now!", pageLink, iTunesLink];
+        
+        
+        NSString *pageLink = @"http://anthropology.si.edu/writteninbone/comic/";
+        NSString *emailBody = [NSString stringWithFormat: @"You completed the Forensic Anthropology activity at the National Museum of Natural History today! Click <a href = '%@'>here</a> to investigate a real-life forensic anthropology mystery.", pageLink];
         
         [mailVC setMessageBody:emailBody isHTML:YES];
         

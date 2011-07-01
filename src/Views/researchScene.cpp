@@ -107,8 +107,8 @@ void researchScene::setup() {
     //3d swap
     //back to research button
     swap.setSize(100, 100);
-    swap.setPos(0,ofGetHeight());
-    swap.setLabel("See the other models", &mnhAssets->whitneySemiBold22);
+    swap.setPos(1.5*MNH_GRID_CELL_SIZE,ofGetHeight()-50-swap.rect.height*2);
+    swap.setLabel("Swap Models", &mnhAssets->whitneySemiBold22);
     a = false;
     
 }
@@ -142,7 +142,7 @@ void researchScene::init3DViewer(traumaType trauma){
             break;
         case MNH_FAL_ANTEMORTEM2:
             boneFileName = "3dmodels/Femur_169_reduced20k_annotated.3ds";
-            bonescale = 2;
+            bonescale = 1.5;
             break;
         case MNH_FAL_PERIMORTEM1:
             boneFileName = "3dmodels/Cranium_209434-reduced10k_annotated.3ds";
@@ -150,6 +150,7 @@ void researchScene::init3DViewer(traumaType trauma){
             break;
         case MNH_FAL_PERIMORTEM2:
             boneFileName = "3dmodels/Femur_170R_Knee_Final_reduced25k_annotated.3ds";
+            bonescale = 1.5;
             break;
         default:
             break;
