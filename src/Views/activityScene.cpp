@@ -189,7 +189,7 @@ void activityScene::update() {
         case 0:
             break;
         case 1:
-            printf("saved\n");
+      //      printf("saved\n");
             break;
         case 2:
             printf("sent\n");
