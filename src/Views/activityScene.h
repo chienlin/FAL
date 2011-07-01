@@ -119,4 +119,6 @@ class activityScene : public mnhBaseScene {
     
     
     
+//        ofxMail theMail;
+    
 };
