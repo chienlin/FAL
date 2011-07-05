@@ -142,7 +142,7 @@ void researchScene::init3DViewer(traumaType trauma){
             break;
         case MNH_FAL_ANTEMORTEM2:
             boneFileName = "3dmodels/Femur_169_reduced20k_annotated.3ds";
-            bonescale = 1.5;
+            bonescale = 2.0;
             break;
         case MNH_FAL_PERIMORTEM1:
             boneFileName = "3dmodels/Cranium_209434-reduced10k_annotated.3ds";
@@ -150,7 +150,7 @@ void researchScene::init3DViewer(traumaType trauma){
             break;
         case MNH_FAL_PERIMORTEM2:
             boneFileName = "3dmodels/Femur_170R_Knee_Final_reduced25k_annotated.3ds";
-            bonescale = 1.5;
+            bonescale = 3.00;
             break;
         default:
             break;

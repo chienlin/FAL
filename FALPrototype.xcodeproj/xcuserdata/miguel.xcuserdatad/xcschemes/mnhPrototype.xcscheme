@@ -15,8 +15,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
                BuildableName = "mnhPrototype.app"
-               BlueprintName = "mnhPrototype"
-               ReferencedContainer = "container:mnhPrototype.xcodeproj">
+               BlueprintName = "FALPrototype"
+               ReferencedContainer = "container:FALPrototype.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,8 +42,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "mnhPrototype.app"
-            BlueprintName = "mnhPrototype"
-            ReferencedContainer = "container:mnhPrototype.xcodeproj">
+            BlueprintName = "FALPrototype"
+            ReferencedContainer = "container:FALPrototype.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -61,8 +61,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "mnhPrototype.app"
-            BlueprintName = "mnhPrototype"
-            ReferencedContainer = "container:mnhPrototype.xcodeproj">
+            BlueprintName = "FALPrototype"
+            ReferencedContainer = "container:FALPrototype.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
